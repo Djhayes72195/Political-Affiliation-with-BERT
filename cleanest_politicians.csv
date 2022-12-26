@@ -1,0 +1,886 @@
+,Unnamed: 0,Account_ID,Name,Twitter_username,Political_party
+0,0,816181091673448448,A. Donald McEachin,RepMcEachin,Democratic Party
+1,1,160246973,Aaron Michlewitz,RepMichlewitz,Democratic Party
+2,2,215369273,Aaron Peskin,AaronPeskin,Democratic Party
+3,3,9843332,Aaron Peña,AaronPena,Republican Party
+5,5,1262017122,Abby Finkenauer,Abby4Iowa,Democratic Party
+6,6,1078771401497161728,Abigail Spanberger,SpanbergerVA07,Democratic Party
+7,8,882958562296819714,Abigail Spanberger,SpanbergerVA07,Democratic Party
+8,10,219429281,Adam Kinzinger,repkinzinger,Republican Party
+9,11,48809111,Adam Putnam,adamputnam,Republican Party
+10,12,29501253,Adam Schiff,RepAdamSchiff,Democratic Party
+11,13,58928690,Adam Smith,RepAdamSmith,Democratic Party
+14,16,1644427472,Adrian Fenty,adrianfenty,Democratic Party
+15,17,296245061,Adrian Smith,RepAdrianSmith,Republican Party
+16,18,817076257770835968,Adriano Espaillat,RepEspaillat,Democratic Party
+17,19,2400005258,Aftab Pureval,aftabpureval,Democratic Party
+18,20,1173297636,Aja Brown,AjaLBrown,Democratic Party
+19,23,7334402,Al Franken,alfranken,Minnesota Democratic–Farmer–Labor Party
+20,25,17220934,Al Gore,algore,Democratic Party
+21,26,156333623,Al Green,RepAlGreen,Democratic Party
+22,28,831279382052249600,Al Muratsuchi,asmmuratsuchi,Democratic Party
+23,30,42389136,Al Sharpton,TheRevAl,Democratic Party
+24,31,41017380,Alan Grayson,AlanGrayson,Democratic Party
+25,32,1055730738,Alan Lowenthal,replowenthal,Democratic Party
+26,33,1099290316920799233,Albert Bryan Jr.,govbryan,Democratic Party of the Virgin Islands
+27,35,18696134,Albio Sires,RepSires,Democratic Party
+29,40,82489457,Alex Padilla,alexpadilla4ca,Democratic Party
+30,41,2964526557,Alex X. Mooney,RepAlexMooney,Republican Party
+31,44,1079104563280527364,Alexandria Ocasio-Cortez,AOC,Democratic Party
+32,45,138203134,Alexandria Ocasio-Cortez,AOC,Democratic Party
+33,46,297428020,Alfonso H. Lopez,Lopez4VA,Democratic Party
+34,47,818472418620608512,"Alfred Lawson, Jr.",RepAlLawsonJr,Democratic Party
+36,49,233368344,Alison Lundergan Grimes,AlisonForKY,Democratic Party
+37,51,237403203,Allen West,allenwest,Republican Party
+38,53,2916086925,Alma Adams,RepAdams,Democratic Party
+39,54,2693406407,Alveda King,AlvedaCKing,Republican Party
+40,56,2504452635,Alyssa Mastromonaco,AlyssaMastro44,Democratic Party
+41,57,584256712,Amanda Fritz,AmandaFritzRN,Democratic Party
+42,58,950783972,Ami Bera,RepBera,Democratic Party
+43,59,33537967,Amy Klobuchar,amyklobuchar,Minnesota Democratic–Farmer–Labor Party
+44,61,2783231383,Amy McGrath,AmyMcGrathKY,Democratic Party
+45,62,111989710,Ana Sol Gutierrez,asolg,Democratic Party
+47,65,36745613,Andrea Stewart-Cousins,andreascousins,Democratic Party
+53,72,199325935,André Carson,RepAndreCarson,Democratic Party
+54,73,1089334250,Andy Barr,RepAndyBarr,Republican Party
+55,74,2991360032,Andy Beshear,AndyBeshearKY,Democratic Party
+56,75,816652616625168388,Andy Biggs,RepAndyBiggsAZ,Republican Party
+57,76,960962340,Andy Harris,RepAndyHarrisMD,Republican Party
+58,77,1078771848882593793,Andy Kim,RepAndyKimNJ,Democratic Party
+59,79,24215154,Andy Kim,RepAndyKimNJ,Democratic Party
+60,81,1080277407867772930,Andy Levin,RepAndyLevin,Democratic Party
+61,83,15935867,Angela Alsobrooks,CEXAlsobrooks,Democratic Party
+62,88,1080222360643485698,Angie Craig,AngieCraigMN,Democratic Party
+63,90,411861905,Angie Craig,AngieCraigMN,Democratic Party
+64,94,95357369,Anitere Flores,anitere_flores,Republican Party
+65,95,1081240074946252801,Ann Kirkpatrick,RepKirkpatrick,Democratic Party
+66,97,272004287,Ann Kirkpatrick,RepKirkpatrick,Democratic Party
+67,99,1058717720,Ann McLane Kuster,RepAnnieKuster,Democratic Party
+69,101,1051446626,Ann Wagner,RepAnnWagner,Republican Party
+70,102,249348006,Anna Eshoo,RepAnnaEshoo,Democratic Party
+72,105,19249328,Annise Parker,AnniseParker,Democratic Party
+75,110,195638329,Anthony Cannella,AnthonyCannella,California Republican Party
+76,112,823552974253342721,Anthony G. Brown,RepAnthonyBrown,Democratic Party
+77,113,1054381765224210432,Anthony Gonzalez,RepAGonzalez,Republican Party
+79,118,1200043633,Anthony Rendon,Rendon63rd,California Democratic Party
+80,119,24578794,Anthony Scaramucci,scaramucci,Republican Party
+82,122,829061809135030272,Antonio Delgado,DelgadoforNY19,Democratic Party
+85,127,37055926,Aravella Simotas,AravellaSimotas,Democratic Party
+86,129,21982720,Arianna Huffington,ariannahuff,Democratic Party
+87,130,4662969794,Arne Duncan,arneduncan,Democratic Party
+90,135,241674047,Arthur Purves,votepurves,Republican Party
+92,139,269992801,Asa Hutchinson,AsaHutchinson,Republican Party
+93,141,18189966,Ashley Hinson,hinsonashley,Republican Party of Iowa
+95,146,3026622545,Aumua Amata,RepAmata,Republican Party
+96,152,4686170306,Austin Petersen,AP4Liberty,Republican Party
+97,156,234797704,Austin Scott,AustinScottGA08,Republican Party
+98,157,1080584229510172678,Ayanna Pressley,RepPressley,Democratic Party
+99,159,31013444,Ayanna Pressley,RepPressley,Democratic Party
+102,164,813286,Barack Obama,BarackObama,Democratic Party
+106,170,248735463,Barbara Lee,repbarbaralee,Democratic Party
+110,175,2914163523,Barry Loudermilk,RepLoudermilk,Republican Party
+112,177,2920014210,Ben Barnes,benbarnes,Democratic Party
+114,179,109071031,Ben Cardin,SenatorCardin,Democratic Party
+115,182,1180379185,Ben Carson,SecretaryCarson,Democratic Party
+117,192,40264497,Ben Cline,Cline4Virginia,Republican Party
+119,197,19318314,Ben R. Luján,repbenraylujan,Democratic Party
+121,199,82453460,Bennie Thompson,BennieGThompson,Democratic Party
+123,204,216776631,Bernie Sanders,BernieSanders,Democratic Party
+124,207,29442313,Bernie Sanders,BernieSanders,Democratic Party
+125,208,489856457,Beth Van Duyne,Bethvanduyne,Republican Party
+126,209,342863309,Beto O'Rourke,RepBetoORourke,Democratic Party
+128,213,599530439,Betsy DeVos,BetsyDeVos,Republican Party
+129,215,516880804,Betty McCollum,BettyMcCollum04,Democratic Party
+130,219,164414525,Betty McCollum,BettyMcCollum04,Democratic Party
+131,223,417582683,Betty T. Yee,BettyYeeforCA,Democratic Party
+134,227,55677432,Bill Cassidy,BillCassidy,Republican Party
+135,229,1330457336,Bill Clinton,BillClinton,Democratic Party
+137,231,1080509366,Bill Foster,RepBillFoster,Democratic Party
+139,234,26103389,Bill Haslam,billhaslam,Republican Party
+140,235,233949261,Bill Huizenga,RepHuizenga,Republican Party
+141,236,211530910,Bill Johnson,RepBillJohnson,Republican Party
+142,237,232992031,Bill Keating,USRepKeating,Democratic Party
+143,238,1084924525232513025,Bill Lee,GovBillLee,Republican Party
+144,240,823248562851037185,Bill Lee,GovBillLee,Republican Party
+145,242,20597460,Bill Nelson,senbillnelson,Democratic Party
+146,244,515736574,Bill Pascrell,BillPascrell,Democratic Party
+147,246,74508260,Bill Pascrell,BillPascrell,Democratic Party
+148,248,25086658,Bill Posey,CongBillPosey,Republican Party
+154,256,476193064,Bill de Blasio,BilldeBlasio,Democratic Party
+155,257,1444015610,Billy Long,USRepLong,Republican Party
+156,258,1849261916,Blaine Luetkemeyer,RepBlaine,Republican Party
+158,263,94154021,Bob Casey Jr.,SenBobCasey,Democratic Party
+159,265,171598736,Bob Casey Jr.,SenBobCasey,Democratic Party
+161,269,73303753,Bob Corker,senbobcorker,Republican Party
+162,270,612777130,Bob Cortes,CortesBob,Republican Party
+166,274,234822928,Bob Gibbs,RepBobGibbs,Republican Party
+170,278,949089035556982786,Bob Hugin,BobHugin,Republican Party
+171,279,15394954,Bob Latta,BobLatta,Republican Party
+173,282,17078632,Bobby Jindal,bobbyjindal,Republican Party
+174,283,305216911,Bobby Rush,RepBobbyRush,Democratic Party
+175,284,161791703,Bobby Scott,BobbyScott,Democratic Party
+178,292,1071840474,Brad Schneider,repschneider,Democratic Party
+179,293,30216513,Brad Sherman,BradSherman,Democratic Party
+180,294,518644221,Brad Wenstrup,RepBradWenstrup,Republican Party
+182,299,120184055,Brandon Dillon,BrandonDillon75,Democratic Party
+183,300,175953481,Brandon Presley,BrandonPresley,Democratic Party
+184,306,2863006655,Brenda Lawrence,RepLawrence,Democratic Party
+186,308,231108733,Brendan F. Boyle,RepBrendanBoyle,Democratic Party
+187,309,114607567,Brett Guthrie,brettguthrie,Republican Party
+188,310,2929491549,Brian Babin,RepBrianBabin,Republican Party
+190,312,743292565,Brian E. Frosh,BrianFrosh,Democratic Party
+191,314,29122382,Brian Evans,croon1,Democratic Party
+192,315,816303263586914304,Brian Fitzpatrick,repbrianfitz,Republican Party
+193,316,33576489,Brian Higgins,RepBrianHiggins,Democratic Party
+194,317,162126945,Brian Kelsey,BrianKelsey,Republican Party
+195,318,47437206,Brian Kemp,BrianKempGA,Republican Party
+196,320,814103950404239360,Brian Mast,repbrianmast,Republican Party
+197,321,3170031728,Brian Mast,repbrianmast,Republican Party
+198,324,471454646,Brian P. Kavanagh,briankavanaghny,Democratic Party
+199,325,3062158491,Brian P. Stack,mayorstack,Democratic Party
+202,330,47747074,Brian Schatz,SenBrianSchatz,Democratic Party
+203,332,1262099252,Brian Schatz,SenBrianSchatz,Democratic Party
+204,334,369613362,Brian Sims,BrianSimsPA,Democratic Party
+205,335,56490073,Brianne Nadeau,brianneknadeau,Democratic Party
+207,339,240785083,Bruce Kraus,brucekraus,Democratic Party
+211,344,2852998461,Bruce Westerman,RepWesterman,Republican Party
+212,346,1075205691621720064,Bryan Steil,RepBryanSteil,Republican Party
+213,347,124560631,Bryce Reeves,ReevesVA,Republican Party
+214,348,2973870195,Buddy Carter,RepBuddyCarter,Republican Party
+216,351,170011008,Byron Brown,MayorByronBrown,Democratic Party
+221,356,383566622,Carl Heastie,CarlHeastie,Democratic Party
+224,361,32313637,Carlos Guillermo Smith,CarlosGSmith,Democratic Party
+225,362,907355254957715457,Carlos Gutierrez,carlosgutierrez,Republican Party
+226,363,166401351,Carlos Lopez-Cantera,lopezcantera,Republican Party
+229,367,1081318716573470720,Carol Miller,RepCarolMiller,Republican Party
+233,374,2394599778,Carolyn Goodman,mayoroflasvegas,Democratic Party
+234,375,258900199,Carolyn Maloney,RepMaloney,Democratic Party
+235,376,339684960,Carrie Ruud,CarrieRuud,Republican Party
+237,380,811313565760163844,Catherine Cortez Masto,CatherineForNV,Democratic Party
+238,382,3145735852,Catherine Cortez Masto,CatherineForNV,Democratic Party
+240,387,17976923,Cathy McMorris Rodgers,cathymcmorris,Republican Party
+241,388,17011177,Cecile Richards,CecileRichards,Democratic Party
+244,391,429227921,Cenk Uygur,cenkuygur,Republican Party
+246,393,48086014,Chaka Fattah,ChakaFattah,Democratic Party
+249,397,54990588,Charlie Baker,CharlieBakerMA,Republican Party
+251,400,242376736,Charlie Dent,RepCharlieDent,Republican Party
+252,401,356903515,Charlie Geren,charliegeren,Republican Party
+253,402,29450425,Charniele Herring,C_Herring,Democratic Party
+254,403,14984637,Chellie Pingree,ChelliePingree,Democratic Party
+255,404,1092979962,Cheri Bustos,RepCheri,Democratic Party
+256,405,1082790600292925440,Chip Roy,RepChipRoy,Republican Party
+260,411,15324851,Chris Coons,ChrisCoons,Democratic Party
+261,413,16317406,Chris Dodd,SenChrisDodd,Democratic Party
+264,416,304158388,Chris Head,DelChrisHead,Republican Party
+265,419,3407370712,Chris Kapenga,SenatorKapenga,Republican Party
+268,423,150078976,Chris Murphy,ChrisMurphyCT,Democratic Party
+269,424,1067748650485497862,Chris Pappas,ChrisPappasNH,Democratic Party
+270,426,574799823,Chris Pappas,ChrisPappasNH,Democratic Party
+272,431,1072008757,Chris Stewart,RepChrisStewart,Republican Party
+274,433,95943434,Chris Sununu,ChrisSununu,Republican Party
+275,434,524733591,Chris Taylor,ChrisTaylorWI,Democratic Party
+276,435,18137749,Chris Van Hollen,VanHollenForMD,Democratic Party
+278,439,116282843,Chris Widener,ChrisWidenerOH,Republican Party
+279,440,1052896620797460481,Chrissy Houlahan,RepHoulahan,Democratic Party
+280,442,431049342,Christina Hagan,RepHagan,Republican Party
+282,444,2270660737,Christine Quinn,chriscquinn,Democratic Party
+284,449,789977198,Christopher Ruddy,chrisruddynmx,Republican Party
+285,450,4699063596,Christy Smith,ChristyforCA25,Democratic Party
+287,462,36480404,Chuck Baldwin,drchuckbaldwin,Republican Party
+288,464,235190657,Chuck Fleischmann,RepChuck,Republican Party
+289,465,10615232,Chuck Grassley,ChuckGrassley,Republican Party
+290,466,1239543974,Chuck McGrady,ChuckMcGrady,Republican Party
+291,467,17494010,Chuck Schumer,SenSchumer,Democratic Party
+292,468,1080865917377097728,Cindy Axne,RepCindyAxne,Democratic Party
+293,470,867495243482058755,Cindy Axne,RepCindyAxne,Democratic Party
+294,472,262192574,Cindy Hyde-Smith,SenHydeSmith,Democratic Party
+295,476,983348251972816896,Cindy Hyde-Smith,SenHydeSmith,Democratic Party
+296,480,61263431,Cindy McCain,cindymccain,Republican Party
+297,481,16160352,Claire McCaskill,clairecmc,Democratic Party
+298,482,756285384,Claudia Tenney,claudiatenney,Republican Party
+299,484,843636970538618880,Clay Higgins,RepClayHiggins,Republican Party
+300,485,1078355119920562176,Colin Allred,RepColinAllred,Democratic Party
+301,487,346964561,Colin Allred,RepColinAllred,Democratic Party
+306,495,388555493,Condoleezza Rice,CondoleezzaRice,Republican Party
+308,497,855240223432769538,Conor Lamb,ConorLambPA,Democratic Party
+312,504,15808765,Cory Booker,CoryBooker,Democratic Party
+313,505,20879626,Cory Gardner,corygardner,Republican Party
+315,513,20513337,Craig Fitzhugh,CraigFitzhugh,Democratic Party
+319,517,123314680,"Curtis M. Loftis, Jr.",treasurerloftis,Republican Party
+320,519,22831059,Cynthia Lummis,CynthiaLummis,Republican Party
+321,520,18572546,Cynthia McKinney,cynthiamckinney,Democratic Party
+323,523,142839300,Dan Bilzerian,danbilzerian,Republican Party
+324,524,1912799826,Dan Bishop,jdanbishop,Republican Party
+327,528,1045110018,Dan Kildee,RepDanKildee,Democratic Party
+330,532,2930635215,Dan Newhouse,RepNewhouse,Republican Party
+331,533,17582355,Dan Patrick,DanPatrick,Republican Party
+332,536,27345790,Dana Beyer,DanaBeyerMD,Democratic Party
+333,537,27311044,Dana Perino,DanaPerino,Republican Party
+336,541,403581958,Dane Eagle,DaneEagle,Republican Party
+337,542,169586297,Danica Roem,pwcdanica,Democratic Party
+338,544,7912512,Daniel Biss,danielbiss,Democratic Party
+340,546,2891210047,Daniel S. Sullivan,SenDanSullivan,Republican Party
+341,548,309178614,Daniel Squadron,DanielSquadron,Democratic Party
+342,549,2491513814,"Daniel T. Blue, Jr.",danbluenc,Democratic Party
+343,550,281540744,Daniel Webster,RepWebster,Republican Party
+345,552,789244177,Danny K. Davis,RepDannyDavis,Democratic Party
+346,553,64465025,Danny Tarkanian,DannyTarkanian,Republican Party
+347,554,3686482216,Darin LaHood,RepLaHood,Republican Party
+348,555,22509548,Darrell Issa,DarrellIssa,Republican Party
+349,556,3526565908,Darrell Steinberg,mayor_steinberg,Democratic Party
+350,557,114338937,Darren Jackson,JacksonforNC,Democratic Party
+351,558,818713465653051392,Darren Soto,RepDarrenSoto,Democratic Party
+353,561,1222179409,Dave LaRock,LaRock4Delegate,Republican Party
+355,563,244655353,David Axelrod,davidaxelrod,Democratic Party
+356,565,32125811,David Baria,dbaria,Democratic Party
+357,566,849183802777882624,David Beasley,WFPChief,Republican Party
+358,568,149586061,David Bulova,DavidBulova,Democratic Party
+360,570,10378382,David Chiu,davidchiu,Democratic Party
+361,572,462143773,David Cicilline,RepCicilline,Democratic Party
+364,580,19791281,David Holt,davidfholt,Republican Party
+366,583,2178681566,David Jolly,DavidJollyFL,Republican Party
+367,584,976969338,David Joyce,RepDaveJoyce,Republican Party
+368,585,816012124505931780,David Kustoff,repdavidkustoff,Republican Party
+370,588,583486767,David Loebsack,daveloebsack,Democratic Party
+371,590,123984879,David M. McIntosh,DavidMMcintosh,Republican Party
+372,591,240427862,David McKinley,RepMcKinley,Republican Party
+375,598,155669457,David Price,RepDavidEPrice,Democratic Party
+377,600,127941167,David Rouzer,DavidRouzer,Republican Party
+378,601,25785303,David Schapira,dschapira,Democratic Party
+379,602,229197216,David Schweikert,RepDavid,Republican Party
+380,603,168673083,David Scott,repdavidscott,Democratic Party
+382,605,43117323,David Toscano,deltoscano,Democratic Party
+384,607,1128514404,David Valadao,RepDavidValadao,Republican Party
+389,615,62383743,Dawn Zimmer,dawnzimmernj,Democratic Party
+390,616,20540348,Daylin Leach,daylinleach,Democratic Party
+392,618,39894447,Dean Phillips,deanbphillips,Democratic Party
+393,620,1061310112013434882,Dean Phillips,deanbphillips,Democratic Party
+394,622,1071402577,Deb Fischer,SenatorFischer,Republican Party
+395,624,59161755,Deb Goldberg,masstreasury,Democratic Party
+398,629,996094929733652481,Debbie Lesko,RepDLesko,Republican Party
+399,630,750046943905058816,Debbie Mucarsel-Powell,DebbieforFL,Democratic Party
+400,631,76456274,Debbie Stabenow,SenStabenow,Democratic Party
+401,632,115979444,Debbie Wasserman Schultz,DWStweets,Democratic Party
+402,633,2970279814,Deborah Dingell,RepDebDingell,Democratic Party
+403,634,3806081652,Deborah K. Ross,DeborahRossNC,Democratic Party
+407,638,153857050,Denise Driehaus,DeniseDriehaus,Democratic Party
+408,640,242146618,Denise Merrill,SOTSMerrill,Democratic Party
+409,641,3537275536,Dennis A. Ross,AmbDennisRoss,Republican Party
+411,645,234406945,Dennis Daugaard,SDGovDaugaard,Republican Party
+412,646,1068499286,Dennis Heck,RepDennyHeck,Democratic Party
+413,647,106237226,Dennis K. Baxley,dennisbaxley,Republican Party
+414,648,15022633,Dennis Kucinich,dennis_kucinich,Democratic Party
+415,649,1080504024695222273,Denver Riggleman,RepRiggleman,Republican Party
+416,650,1058917562,Derek Kilmer,RepDerekKilmer,Democratic Party
+417,651,61636488,Deval Patrick,devalpatrick,Democratic Party
+419,653,28599820,Diana DeGette,RepDianaDeGette,Democratic Party
+423,657,14943778,Diane Russell,MissWrite,Democratic Party
+424,659,80890505,Diane Savino,dianesavino,Democratic Party
+425,660,476256944,Dianne Feinstein,SenFeinstein,Democratic Party
+426,661,247334603,Dick Durbin,SenatorDurbin,Democratic Party
+428,665,122174004,Dina Titus,RepDinaTitus,Democratic Party
+429,666,91882544,Dinesh D'Souza,DineshDSouza,Republican Party
+431,668,818975124460335106,Don Bacon,repdonbacon,Republican Party
+432,669,2962868158,Don Beyer,RepDonBeyer,Democratic Party
+433,670,48762458,Don Blankenship,DonBlankenship,Republican Party
+434,672,365051475,Don Ness,Ness_Duluth,Minnesota Democratic–Farmer–Labor Party
+436,675,3122099613,Donald Norcross,DonaldNorcross,Democratic Party
+437,676,1155335864,"Donald Payne, Jr.",RepDonaldPayne,Democratic Party
+439,681,60919240,Donna Brazile,donnabrazile,Democratic Party
+440,682,68920859,Donna Campbell,DonnaCampbellTX,Republican Party
+442,684,112899475,Donna Howard,DonnaHowardTX,Democratic Party
+444,686,737719829579345920,Donna Shalala,DonnaShalala,Democratic Party
+446,690,38254095,Doris Matsui,DorisMatsui,Democratic Party
+447,693,518700708,Doug Burgum,DougBurgum,Republican Party
+448,694,805856929813663744,Doug Chin,AtghIgov,Democratic Party
+449,695,1060487274,Doug Collins,RepDougCollins,Republican Party
+450,696,20217019,Doug Ducey,dougducey,Republican Party
+452,698,532702053,Doug La Follette,douglafollette,Democratic Party
+453,699,1069124515,Doug LaMalfa,RepLaMalfa,Republican Party
+454,701,584012853,Doug Lamborn,RepDLamborn,Republican Party
+455,702,2963960540,Doug Peterson,AGDougPeterson,Republican Party
+456,703,50718079,Dow Constantine,kcexec,Democratic Party
+457,704,806583915012046854,Drew Ferguson,RepDrewFerguson,Republican Party
+458,705,381552927,"Drew Springer, Jr.",DrewSpringer,Republican Party
+461,708,140529899,Dusty Johnson,RepDustyJohnson,Republican Party
+462,710,1074782372594413569,Dusty Johnson,RepDustyJohnson,Republican Party
+463,712,305620929,Dutch Ruppersberger,Call_Me_Dutch,Democratic Party
+464,713,90639372,Dwight E. Evans,RepDwightEvans,Democratic Party
+465,714,15954997,Earl Blumenauer,repblumenauer,Democratic Party
+467,716,1081350574589833221,Ed Case,RepEdCase,Democratic Party
+471,723,21406834,Ed Markey,SenMarkey,Democratic Party
+473,725,20552026,Ed Perlmutter,RepPerlmutter,Democratic Party
+474,726,829797714,Ed Rendell,govedrendell,Democratic Party
+477,729,168502762,Eddie Bernice Johnson,RepEBJ,Democratic Party
+479,731,242883110,Edward Asner,TheOnlyEdAsner,Democratic Party
+480,733,3364353053,Edward F. Cox,chairmanedcox,Republican Party
+485,738,236968152,Eileen Filler-Corn,EFillerCorn,Democratic Party
+487,741,950111395378597888,Elaine Luria,ElaineLuriaVA,Democratic Party
+488,742,23600262,Eleanor Holmes Norton,EleanorNorton,Democratic Party
+490,745,164007407,Eliot Engel,RepEliotEngel,Democratic Party
+491,746,2962813893,Elise Stefanik,RepStefanik,Republican Party
+492,748,109579534,Elise Stefanik,RepStefanik,Republican Party
+493,751,1078401427347857408,Elissa Slotkin,RepSlotkin,Democratic Party
+494,753,860547911268139008,Elissa Slotkin,RepSlotkin,Democratic Party
+495,755,816719802328715264,Elizabeth Cheney,RepLizCheney,Republican Party
+497,760,789492350120624128,Elizabeth Guzmán,delegateguzman,Democratic Party
+498,762,970207298,Elizabeth Warren,ewarren,Democratic Party
+499,764,357606935,Elizabeth Warren,ewarren,Democratic Party
+500,771,322933929,Elly Schlein,ellyesse,Democratic Party
+501,773,163570705,Emanuel Cleaver,repcleaver,Democratic Party
+502,774,340395994,Emily Larson,LarsonForDuluth,Minnesota Democratic–Farmer–Labor Party
+503,775,135193670,Emily Virgin,EmilyVirginOK,Democratic Party
+504,778,926810064,Eric Brakey,SenatorBrakey,Republican Party
+505,779,17993908,Eric Burlison,ericburlison,Republican Party
+507,781,814367737342328833,Eric Fanning,SECARMY,Democratic Party
+509,783,24004390,Eric Greitens,EricGreitens,Democratic Party
+510,785,4919082864,Eric Holcomb,GovHolcomb,Republican Party
+511,787,3118589409,Eric Holcomb,GovHolcomb,Republican Party
+512,789,3333055535,Eric Holder,ericholder,Democratic Party
+514,793,942156122,Eric Swalwell,RepSwalwell,Democratic Party
+517,796,581678551,Erika Harold,ErikaHarold,Republican Party
+519,799,821769014691168256,Ernest Moniz,ErnestMoniz,Democratic Party
+520,801,37820650,Eugene DePasquale,DePasqualePA,Democratic Party
+523,806,55018701,Evan Glass,EvanMGlass,Democratic Party
+524,809,253769656,Evan Low,Evan_Low,Democratic Party
+525,811,1051396218,Evan McMullin,EvanMcMullin,Republican Party
+528,816,816111677917851649,Francis Rooney,RepRooney,Republican Party
+529,817,617602505,Francis X. Suarez,FrancisSuarez,Republican Party
+532,822,242772524,Frank Lucas,RepFrankLucas,Republican Party
+533,823,31801993,Frank Pallone,FrankPallone,Democratic Party
+534,825,1265423480,Frank Pallone,FrankPallone,Democratic Party
+535,827,2356836282,Frank Riggs,riggsforaz,Republican Party
+536,828,237418907,Frank Wolf,RepWOLFPress,Republican Party
+538,830,124224165,Fred Upton,RepFredUpton,Republican Party
+539,831,234014087,Frederica Wilson,RepWilson,Democratic Party
+540,832,2953974395,French Hill,RepFrenchHill,Republican Party
+543,836,2951574214,Garret Graves,RepGarretGraves,Republican Party
+548,844,2861616083,Gary Palmer,USRepGaryPalmer,Republican Party
+549,845,236511574,Gary Peters,SenGaryPeters,Democratic Party
+552,850,11347122,Gavin Newsom,GavinNewsom,Democratic Party
+557,857,80136311,George P. Bush,GeorgePBush,Republican Party
+558,858,2865560724,George Pataki,governorpataki,Republican Party
+559,859,17074440,George Stephanopoulos,GStephanopoulos,Democratic Party
+560,861,78445977,Gerry Connolly,GerryConnolly,Democratic Party
+563,867,876894308309147650,Gil Cisneros,GilCisnerosCA,Republican Party
+564,871,600408823,Gilberto Hinojosa,HinojosaTX,Democratic Party
+569,876,17454769,Glenn Beck,glennbeck,Republican Party
+570,877,1284438674,Glenn Davis,DelGlennDavis,Republican Party
+571,878,2976606250,Glenn Grothman,RepGrothman,Republican Party
+572,879,83469886,Glenn Hegar,Glenn_Hegar,Republican Party
+573,880,18967498,Glenn Thompson,CongressmanGT,Republican Party
+578,885,1051127714,Grace Meng,RepGraceMeng,Democratic Party
+579,886,161411080,Grace Napolitano,GraceNapolitano,Democratic Party
+581,891,90651198,Greg Abbott,gregabbott_tx,Republican Party
+582,892,244123121,Greg Fischer,louisvillemayor,Democratic Party
+583,899,1082369392229400576,Greg Pence,GregPenceIN,Republican Party
+584,901,890038958104735744,Greg Pence,GregPenceIN,Republican Party
+585,903,1080885078425784320,Greg Stanton,gregstantonaz,Democratic Party
+586,905,218292287,Greg Stanton,gregstantonaz,Democratic Party
+587,907,1083125649609506816,Greg Steube,RepGregSteube,Republican Party
+588,909,21924842,Greg Steube,RepGregSteube,Republican Party
+591,914,926446070812602371,Gregorio Sablan,Kilili_Sablan,Democratic Party
+592,917,22812754,Gregory Meeks,GregoryMeeks,Democratic Party
+593,919,3420965229,Gregory Richard Gianforte,GregForMontana,Republican Party
+596,922,102071743,Gretchen Whitmer,GovWhitmer,Democratic Party
+597,923,26051676,Gus Bilirakis,RepGusBilirakis,Republican Party
+598,924,477223342,Guy Reschenthaler,reschenthaler,Republican Party
+599,926,4205133682,Guy Reschenthaler,reschenthaler,Republican Party
+600,928,1283359081,Gwen Graham,GwenGraham,Democratic Party
+601,929,22669526,Gwen Moore,RepGwenMoore,Democratic Party
+602,930,467823431,Hakeem Jeffries,RepJeffries,Democratic Party
+603,931,550401754,Hal Rogers,RepHalRogers,Republican Party
+604,932,391445643,Haley Stevens,HaleyLive,Democratic Party
+605,933,24745957,Hank Johnson,RepHankJohnson,Democratic Party
+606,934,804295,Hans Riemer,hansriemer,Democratic Party
+608,936,59525321,Harold Ford Jr.,haroldfordjr,Democratic Party
+610,939,275451635,Heather Nauert,HeatherNauert,Republican Party
+611,940,262019800,Heather Wilson,HeatherAnWilson,Republican Party
+612,942,23220889,Helen Rosenthal,HelenRosenthal,Democratic Party
+613,943,210926192,Henry Cuellar,RepCuellar,Democratic Party
+614,944,16335288,Henry McMaster,henrymcmaster,Republican Party
+615,948,2377732207,Hilda Solis,hildasolis,Democratic Party
+616,949,1339835893,Hillary Clinton,HillaryClinton,Democratic Party
+617,950,125740073,Hogan Gidley,jhogangidley,Republican Party
+619,954,3245135844,Huma Abedin,HumaAbedin,Democratic Party
+622,958,1082334352711790593,Ilhan Omar,IlhanMN,Minnesota Democratic–Farmer–Labor Party
+623,960,783792992,Ilhan Omar,IlhanMN,Minnesota Democratic–Farmer–Labor Party
+624,966,3065062453,Ina Minjarez,vote4ina,Democratic Party
+626,968,317997164,Israel O'Quinn,IsraelOQuinn,Republican Party
+627,970,52544275,Ivanka Trump,IvankaTrump,Partido Republicano
+629,972,45550693,J.B. Pritzker,JBPritzker,Democratic Party
+630,973,815241612154417152,Jack Bergman,RepJackBergman,Republican Party
+631,974,227392869,Jack Evans,jackevansward2,Democratic Party
+632,975,36654245,Jack Kingston,jackkingston,Republican Party
+633,976,486694111,Jack Reed,SenJackReed,Democratic Party
+634,977,24913074,Jackie Speier,RepSpeier,Democratic Party
+636,979,4749863113,Jacky Rosen,RosenforNevada,Democratic Party
+637,981,818554054309715969,Jacky Rosen,RosenforNevada,Democratic Party
+638,983,328700529,Jacob Frey,Jacob_Frey,Minnesota Democratic–Farmer–Labor Party
+639,987,1082086081238102018,Jahana Hayes,RepJahanaHayes,Democratic Party
+640,989,991721030631780354,Jahana Hayes,RepJahanaHayes,Democratic Party
+644,1000,225921757,James Lankford,SenatorLankford,Republican Party
+645,1006,806906355214852096,Jamie Raskin,repraskin,Democratic Party
+646,1007,40084369,Jamilah Nasheed,SenatorNasheed,Democratic Party
+647,1008,40923070,Jan Brewer,GovBrewer,Republican Party
+648,1009,24195214,Jan Schakowsky,janschakowsky,Democratic Party
+649,1010,140010098,Jane Kim,janekim,Democratic Party
+651,1013,3027557970,Janet Nguyen,SenJanetNguyen,Republican Party
+652,1014,1083795319027089408,Janet T. Mills,GovJanetMills,Democratic Party
+655,1018,900516768032202752,Jared Golden,golden4congress,Democratic Party
+656,1019,1071102246,Jared Huffman,RepHuffman,Democratic Party
+658,1022,15361570,Jared Polis,RepJaredPolis,Democratic Party
+659,1024,93921487,Jason Carter,SenatorCarter,Democratic Party
+660,1025,17800215,Jason Chaffetz,JasonInTheHouse,Democratic Party
+661,1027,1080191866509901826,Jason Crow,RepJasonCrow,Democratic Party
+662,1028,46278119,Jason Isaac,isaacfortexas,Republican Party
+663,1029,20744708,Jason Kander,JasonKander,Democratic Party
+664,1031,1623308912,Jason T. Smith,RepJasonSmith,Republican Party
+666,1033,1077214808,Jay Inslee,govinslee,Democratic Party
+667,1036,3075845932,Jay Nordlinger,jaynordlinger,Republican Party
+669,1039,2956955584,Jay Webber,JayWebberNJ,Republican Party
+671,1041,115334561,Jean Quan,jeanquan,Democratic Party
+672,1044,109287731,Jeanne Shaheen,SenatorShaheen,Democratic Party
+673,1045,113047940,Jeb Bush,JebBush,Republican Party
+675,1050,148305299,Jeff Brandes,JeffreyBrandes,Republican Party
+676,1051,4309422388,Jeff Colyer,DrJeffColyer,Republican Party
+678,1053,240393970,Jeff Duncan,RepJeffDuncan,Republican Party
+679,1055,16056306,Jeff Flake,jeffflake,Republican Party
+681,1057,19466140,Jeff Lamberti,stormerone,Republican Party
+682,1058,158715755,Jeff Leach,leachfortexas,Republican Party
+683,1059,397545273,Jeff Lord,realJeffreyLord,Republican Party
+684,1060,29201047,Jeff Merkley,SenJeffMerkley,Democratic Party
+689,1072,305141546,Jenna Bush Hager,JennaBushHager,Republican Party
+690,1073,20462779,Jennifer Brunner,JenniferBrunner,Democratic Party
+691,1074,14185317,Jennifer Granholm,JenGranholm,Democratic Party
+693,1076,2212905492,Jennifer Wexton,JenniferWexton,Democratic Party
+695,1078,2335899655,Jenny Wilson,JennyWilsonUT,Democratic Party
+696,1081,40302336,Jerrold Nadler,RepJerryNadler,Democratic Party
+698,1083,334219471,Jerry E. Patterson,Patterson4TX,Republican Party
+699,1084,385429543,Jerry McNerney,RepMcNerney,Democratic Party
+700,1085,18632666,Jerry Moran,JerryMoran,Republican Party
+701,1087,300506276,Jerry Springer,jerryspringer,Democratic Party
+702,1088,80366372,Jesse Jackson,RevJJackson,Democratic Party
+703,1092,26583978,Jessica Ramos,jessicaramos,Democratic Party
+704,1093,2847603597,"Jesús ""Chuy"" García",ChuyForCongress,Democratic Party
+707,1097,816131319033950208,Jim Banks,RepJimBanks,Republican Party
+711,1103,22523087,Jim Cooper,RepJimCooper,Democratic Party
+712,1104,245451804,Jim Costa,RepJimCosta,Democratic Party
+714,1106,262794246,Jim Davnie,jdavnie,Minnesota Democratic–Farmer–Labor Party
+715,1108,9508922,Jim DeMint,JimDeMint,Republican Party
+718,1112,31611298,Jim Himes,JAHimes,Democratic Party
+719,1113,18166778,Jim Jordan,Jim_Jordan,Republican Party
+721,1118,18909919,Jim Langevin,JimLangevin,Democratic Party
+723,1120,242426145,Jim McGovern,RepMcGovern,Democratic Party
+724,1121,7270292,Jim Mountain Inhofe,JimInhofe,Republican Party
+726,1123,19970528,Jim Nussle,JimNussle,Republican Party
+727,1124,489087014,Jim Patterson,jimpatterson559,Republican Party
+729,1127,1096059529,Jim Risch,SenatorRisch,Republican Party
+732,1130,19485876,Jim Tedisco,jamestedisco,Republican Party
+736,1134,2371339658,Jimmy Gomez,RepJimmyGomez,California Democratic Party
+737,1136,796736612554117120,Jimmy Panetta,RepJimmyPanetta,Democratic Party
+740,1143,231510077,Joaquín Castro,JoaquinCastrotx,Democratic Party
+741,1144,816284664658874368,Jodey Arrington,RepArrington,Republican Party
+742,1145,2975091705,Jody Hice,congressmanhice,Republican Party
+743,1146,109110373,Jody Steverson,JodySteverson,Democratic Party
+746,1150,939091,Joe Biden,JoeBiden,Democratic Party
+747,1153,85396297,Joe Courtney,RepJoeCourtney,Democratic Party
+748,1154,111635980,Joe Crowley,JoeCrowleyNY,Democratic Party
+750,1157,826589191412862976,Joe Cunningham,JoeCunninghamSC,Democratic Party
+753,1162,1055907624,Joe Kennedy III,repjoekennedy,Democratic Party
+755,1164,234374703,Joe Manchin,Sen_JoeManchin,Democratic Party
+756,1165,175847438,Joe Moody,moodyforelpaso,Democratic Party
+757,1166,1542372750,Joe Neguse,JoeNeguse,Democratic Party
+759,1168,21619519,Joe Scarborough,JoeNBC,Republican Party
+762,1171,595937099,"Joe Shirley, Jr.",joeshirls,Democratic Party
+763,1172,236487888,Joe Walsh,walshfreedom,Republican Party
+764,1173,254082173,Joe Wilson,RepJoeWilson,Republican Party
+765,1174,50452197,John B. Larson,RepJohnLarson,Democratic Party
+766,1176,1217037967,John Bel Edwards,JohnBelforLA,Democratic Party
+767,1178,7713202,John Boehner,speakerboehner,Republican Party
+768,1179,111671288,John Boozman,Boozman4AR,Republican Party
+769,1181,5558312,John Boozman,Boozman4AR,Republican Party
+771,1184,237770636,John Carney,JohnCarneyde,Democratic Party
+772,1185,18030431,John Carter,JudgeCarter,Republican Party
+775,1188,13218102,John Cornyn,JohnCornyn,Republican Party
+776,1189,364243120,John Cranley,JohnCranley,Democratic Party
+778,1191,160010755,John Dean,JohnWDean,Republican Party
+779,1193,426028646,John Delaney,JohnDelaney,Democratic Party
+784,1200,3622368202,John Fetterman,johnfetterman,Democratic Party
+786,1202,2237991554,John Foust,johnfoustva,Democratic Party
+788,1204,88806753,John Garamendi,RepGaramendi,Democratic Party
+792,1208,117839957,John Hickenlooper,Hickenlooper,Democratic Party
+793,1209,382791093,John Hoeven,SenJohnHoeven,Republican Party
+794,1213,861246117689925633,John James,JohnJamesMI,Republican Party
+795,1214,1082311988926124036,John Joyce,RepJohnJoyce,Republican Party
+796,1215,18020081,John Kasich,JohnKasich,Republican Party
+797,1216,2966765501,John Katko,RepJohnKatko,Republican Party
+798,1217,15007149,John Kerry,JohnKerry,Democratic Party
+805,1225,26594419,John Neely Kennedy,JohnKennedyLA,Republican Party
+806,1229,816683274076614656,John Neely Kennedy,JohnKennedyLA,Republican Party
+810,1236,118756393,John R. Bolton,ambjohnbolton,Republican Party
+811,1237,931614483050414080,John R. Curtis,RepJohnCurtis,Republican Party
+812,1238,2847221717,John Ratcliffe,RepRatcliffe,Republican Party
+813,1239,828977216595849216,John Rutherford,RepRutherfordFL,Republican Party
+814,1240,364415553,John Sarbanes,RepSarbanes,Democratic Party
+817,1244,296361085,John Thune,SenJohnThune,Republican Party
+818,1245,26533227,John Thune,SenJohnThune,Republican Party
+819,1252,1081312310059253763,John W. Rose,RepJohnRose,Republican Party
+820,1253,384913290,John Yarmuth,RepJohnYarmuth,Democratic Party
+821,1254,18279894,John Young Brown III,JYBx3,Democratic Party
+823,1257,64098343,Jon A. Husted,JonHusted,Republican Party
+824,1261,130496027,Jon Favreau,jonfavs,Democratic Party
+826,1265,521747968,Jon Ossoff,ossoff,Democratic Party
+827,1266,515822213,Jon Tester,SenatorTester,Democratic Party
+828,1267,412316336,Jonathan Stickland,RepStickland,Republican Party
+829,1268,1383059977,Joni Ernst,SenJoniErnst,Republican Party of Iowa
+830,1272,2856787757,Joni Ernst,SenJoniErnst,Republican Party of Iowa
+833,1281,977247448820305920,Joseph Morelle,votemorelle,Democratic Party
+834,1283,59708490,Josette Sheeran,JosetteSheeran,Republican Party
+835,1284,815310506596691968,Josh Gottheimer,RepJoshG,Democratic Party
+836,1286,1080851152151953410,Josh Harder,RepJoshHarder,Democratic Party
+837,1287,2352629311,Josh Hawley,HawleyMO,Republican Party
+838,1289,24209167,Josh Shapiro,joshshapiropa,Democratic Party
+839,1290,33563161,José Enrique Serrano,RepJoseSerrano,Democratic Party
+842,1293,4644462374,Joy Koesten,joyforkansas,Democratic Party
+843,1295,1531521632,Joyce Beatty,RepBeatty,Democratic Party
+844,1296,2986429745,Joyce Craig,JoyceCraigNH,Democratic Party
+845,1299,1260172386,Juan Vargas,RepJuanVargas,Democratic Party
+846,1300,193732179,Judy Chu,RepJudyChu,Democratic Party
+848,1302,1243902714,Julia Brownley,RepBrownley,Democratic Party
+850,1308,19682187,Julián Castro,JulianCastro,Democratic Party
+851,1313,233842454,Justin Amash,justinamash,Republican Party
+853,1315,24024778,Kal Penn,KalPenn,Democratic Party
+854,1316,30354991,Kamala Harris,KamalaHarris,Democratic Party
+855,1317,803694179079458816,Kamala Harris,KamalaHarris,Democratic Party
+856,1318,734096443561148416,Kane,GlennJacobsTN,Republican Party
+857,1319,892245979,Kane,GlennJacobsTN,Republican Party
+858,1320,24352029,Kaniela Ing,KanielaIng,Democratic Party
+860,1323,169686021,Kanye West,kanyewest,Republican Party
+861,1324,239949176,Karen Bass,RepKarenBass,Democratic Party
+862,1325,286506215,Karen Freeman-Wilson,karenaboutgary,Democratic Party
+866,1331,12145102,Karin Housley,KarinHousley,Republican Party
+867,1333,18791763,Karl Rove,KarlRove,Republican Party
+868,1334,32962571,Karla Bigham,karlabigham,Democratic Party
+869,1336,253193437,Karyn Polito,MassLtGov,Republican Party
+870,1337,3023272478,Kate Brown,oregongovbrown,Democratic Party
+872,1340,2293131060,Katherine Clark,RepKClark,Democratic Party
+873,1343,104007730,Kathleen Merrigan,katmerrigan,Democratic Party
+874,1344,2970462034,Kathleen Rice,RepKathleenRice,Democratic Party
+879,1349,1880674038,Kathy Castor,USRepKCastor,Democratic Party
+880,1350,128290790,Kathy Hochul,LtGovHochulNY,Democratic Party
+882,1355,25375137,Katie Arrington,karringtonsc,Republican Party
+884,1357,834166677579321345,Katie Hobbs,secretaryhobbs,Democratic Party
+885,1358,1081222837459996672,Katie Porter,RepKatiePorter,Democratic Party
+887,1361,161743731,Kay Granger,RepKayGranger,Republican Party
+888,1362,19668491,Kay Ivey,GovernorKayIvey,Republican Party
+889,1363,2540548986,Kaye Kory,kayekory,Democratic Party
+890,1365,305818748,Keisha Lance Bottoms,KeishaBottoms,Democratic Party
+891,1366,14135426,Keith Ellison,KeithEllison,Minnesota Democratic–Farmer–Labor Party
+892,1368,1155212191,Keith Rothfus,KeithRothfus,Republican Party
+893,1369,92354626,Kelda Roys,keldahelenroys,Democratic Party
+894,1370,359403242,Kelli Ward,kelliwardaz,Arizona Republican Party
+895,1372,229592356,Kelly Ayotte,KellyAyotte,Republican Party
+896,1373,29495695,Kelly Loeffler,kloeffler,Republican Party
+897,1374,1080515866255593472,Kelly M. Armstrong,Armstrong_ND,Republican Party
+898,1376,964996994623311874,Kelly M. Armstrong,Armstrong_ND,Republican Party
+900,1380,471672239,Kellyanne Conway,KellyannePolls,Republican Party
+901,1381,17993620,Ken Blackwell,kenblackwell,Republican Party
+902,1383,2862577383,Ken Buck,RepKenBuck,Republican Party
+904,1386,45840174,Ken Paxton,kenpaxtontx,Republican Party
+906,1388,56256477,Ken Stolle,kenstolle,Republican Party
+907,1389,880850093548687360,Kendra Horn,RepKendraHorn,Democratic Party
+908,1391,1083019402046513152,Kendra Horn,RepKendraHorn,Democratic Party
+911,1396,19926675,Kevin Brady,RepKevinBrady,Republican Party
+912,1397,28267055,Kevin Cramer,kevincramer,Republican Party
+913,1401,48534208,Kevin Faulconer,Kevin_Faulconer,Republican Party
+914,1402,1067818539179024386,Kevin Hern,repkevinhern,Republican Party
+915,1403,19739126,Kevin McCarthy,gopleader,Republican Party
+916,1404,17845781,Kevin Parker,SenatorParker,Democratic Party
+917,1406,865210877678686208,Kevin Stitt,GovStitt,Republican Party
+918,1408,30815935,Kevin de León,kdeleon,Democratic Party
+920,1410,835541253601308672,Kim Foxx,SAKimFoxx,Democratic Party
+921,1412,1080462532815532032,Kim Schrier,RepKimSchrier,Democratic Party
+922,1413,326408771,Kim Wyman,KimWyman12,Republican Party
+924,1416,102792727,Kirk Watson,kirkpwatson,Democratic Party
+925,1417,72198806,Kirsten Gillibrand,SenGillibrand,Democratic Party
+926,1418,235251868,Kristi Noem,govkristinoem,Republican Party
+927,1420,21862217,Krystal Ball,krystalball,Democratic Party
+928,1422,16100125,Kurt Daudt,kdaudt,Republican Party
+929,1423,20545793,Kurt Schrader,RepSchrader,Democratic Party
+930,1424,239211082,Kwame Raoul,kwameraoul,Democratic Party
+931,1425,624883838,Kylie Oversen,KylieOversen,Democratic Party
+932,1426,1080844782,Kyrsten Sinema,SenatorSinema,Democratic Party
+933,1427,992056970248183808,LaToya Cantrell,mayorcantrell,Democratic Party
+936,1430,96161390,Lamont Bagby,delegatebagby,Democratic Party
+937,1431,1029094268542099457,Lance Gooden,Lancegooden,Republican Party
+938,1432,234812598,Larry Bucshon,RepLarryBucshon,Republican Party
+939,1433,467208985,Larry Farnese,larryfarnese,Democratic Party
+940,1434,280121510,Larry Hogan,LarryHogan,Republican Party
+943,1438,751075331801485313,Lashrecse Aird,delegateaird,Democratic Party
+944,1439,131204770,Laura Bush,laurawbush,Republican Party
+945,1440,1040058893907513344,Laura Kelly,GovLauraKelly,Democratic Party
+946,1443,11388132,Lawrence Lessig,lessig,Democratic Party
+947,1444,236526490,Lawrence Summers,LHSummers,Democratic Party
+949,1446,28946201,Leah Vukmir,LeahVukmir,Republican Party
+950,1447,4842843378,Lee J. Carter,carterforva,Democratic Party
+951,1448,2750127259,Lee Zeldin,RepLeeZeldin,Republican Party
+955,1452,1345917452,Les Adams,LesAdamsVA,Republican Party
+956,1453,2247906445,Lesley Cohen,Cohen4AD29,Democratic Party
+958,1456,20776505,Leslie Rutledge,LeslieRutledge,Republican Party
+959,1458,28502793,Letitia James,TishJames,Democratic Party
+960,1459,113191401,Levar Stoney,LevarStoney,Democratic Party
+961,1460,2227281840,Libby Schaaf,LibbySchaaf,Democratic Party
+963,1470,488560862,Linda Coleman,LindaForNC,Democratic Party
+964,1471,65522706,Linda McMahon,Linda_McMahon,Republican Party
+965,1473,312134473,Linda Sánchez,replindasanchez,Democratic Party
+966,1474,432895323,Lindsey Graham,LindseyGrahamSC,Republican Party
+967,1475,4049197462,Lisa Blunt Rochester,LisaBRochester,Democratic Party
+969,1477,18061669,Lisa Murkowski,lisamurkowski,Republican Party
+970,1478,1182675871,Lisa P. Jackson,lisapjackson,Democratic Party
+971,1480,1075904377221722113,Lizzie Pannill Fletcher,RepFletcher,Democratic Party
+972,1481,153944899,Lloyd Doggett,RepLloydDoggett,Democratic Party
+973,1482,41417564,Lloyd Smucker,RepSmucker,Republican Party
+975,1484,1077121945,Lois Frankel,RepLoisFrankel,Democratic Party
+976,1485,2927379996,London Breed,londonbreed,Democratic Party
+979,1490,1079802482640019456,Lori Trahan,RepLoriTrahan,Democratic Party
+980,1491,343513430,Lorraine Cortés-Vázquez,LorraineCortesV,Democratic Party
+981,1492,239871673,Lou Barletta,RepLouBarletta,Republican Party
+983,1496,22055226,Louie Gohmert,RepLouieGohmert,Republican Party
+984,1497,250185710,Louise Lucas,SenLouiseLucas,Democratic Party
+986,1499,479872233,Lucille Roybal-Allard,RepRoybalAllard,Democratic Party
+987,1500,1082380458976051202,Lucy McBath,RepLucyMcBath,Democratic Party
+990,1505,607721548,Lupe Valdez,LupeValdez,Democratic Party
+995,1512,25413556,Lynne Patton,LynnePattonHUD,Republican Party
+1001,1520,567508925,Madeleine Dean,RepDean,Democratic Party
+1002,1521,935717078966964228,Madeleine Dean,RepDean,Democratic Party
+1006,1529,361569788,Maggie Hassan,maggie_hassan,Democratic Party
+1007,1531,946549322,Maggie Hassan,maggie_hassan,Democratic Party
+1008,1533,333150431,Mahlon Mitchell,MahlonMitchell,Democratic Party
+1009,1534,120550155,Malcolm Smith,MalcSmitty,Democratic Party
+1010,1535,93744888,Malia Cohen,MaliaCohen,Democratic Party
+1011,1539,1074129612,Marc Veasey,RepVeasey,Democratic Party
+1014,1544,15745368,Marco Rubio,marcorubio,Republican Party
+1015,1546,17581393,Marcus Molinaro,marcmolinaro,Republican Party
+1016,1547,14466551,Marcus Simon,marcussimon,Democratic Party
+1017,1548,581141508,Marcy Kaptur,RepMarcyKaptur,Democratic Party
+1019,1550,117501995,Maria Cantwell,SenatorCantwell,Democratic Party
+1021,1554,21522338,Marianne Williamson,marwilliamson,Democratic Party
+1022,1555,18131106,Mariannette Miller-Meeks,millermeeks,Republican Party of Iowa
+1023,1556,20078631,Marie Waldron,MarieWaldron75,Republican Party
+1024,1558,37094727,Mario Díaz-Balart,MarioDB,Republican Party
+1025,1560,402719755,Mark Amodei,MarkAmodeiNV2,Republican Party
+1027,1562,1706107621,Mark Cole,MarkColeVA,Republican Party
+1028,1563,17846914,Mark D. Sickles,MarkSicklesVA,Democratic Party
+1030,1566,2968007206,Mark DeSaulnier,RepDeSaulnier,Republican Party
+1033,1571,1080477288955826176,Mark Green,RepMarkGreen,Republican Party
+1037,1575,16118322,Mark Keam,MarkKeam,Democratic Party
+1040,1580,23250787,Mark Mallory,mayormallory,Democratic Party
+1041,1581,1206227149,Mark Pocan,RepMarkPocan,Democratic Party
+1043,1584,976513639,Mark Rozzi,RepRozzi,Democratic Party
+1047,1589,1037321378,Mark Takano,RepMarkTakano,Democratic Party
+1049,1591,2966205003,Mark Walker,RepMarkWalker,Republican Party
+1050,1592,7429102,Mark Warner,MarkWarner,Democratic Party
+1051,1593,1060370282,Markwayne Mullin,RepMullin,Republican Party
+1053,1595,278145569,Marsha Blackburn,MarshaBlackburn,Republican Party
+1059,1604,1099199839,Martin Heinrich,MartinHeinrich,Democratic Party
+1060,1606,15824288,Martin O'Malley,MartinOMalley,Democratic Party
+1063,1609,130616183,Mary Cheh,marycheh,Democratic Party
+1065,1611,1067541214671577093,Mary Gay Scanlon,RepMGS,Democratic Party
+1066,1612,3021460584,Mary Jennings Hegar,mjhegar,Democratic Party
+1068,1615,413466731,Mary Landrieu,SenLandrieu,Democratic Party
+1072,1619,125802576,Matt Caldwell,mattcaldwell_fl,Republican Party
+1073,1620,776664410,Matt Cartwright,RepCartwright,Democratic Party
+1075,1622,58579942,Matt Gaetz,mattgaetz,Republican Party
+1077,1625,1376252790,Matthew Rosendale,mattformontana,Republican Party
+1078,1626,6672532,Matthew Whitaker,mattwhitaker46,Republican Party
+1079,1627,1964991720,Maura Healey,maura_healey,Democratic Party
+1082,1631,892491627088011264,Max Rose,MaxRose4NY,Democratic Party
+1083,1634,36686040,Maxine Waters,RepMaxineWaters,Democratic Party
+1085,1636,92186819,Mazie Hirono,maziehirono,Democratic Party
+1089,1640,1726628515,Melanne Verveer,MelanneVerveer,Democratic Party
+1090,1641,159633273,Melissa Hortman,melissahortman,Democratic Party
+1091,1643,56257903,Melissa Melendez,asmMelendez,California Republican Party
+1093,1646,343171266,Mia Love,MiaBLove,Republican Party
+1094,1647,2379543723,Michael A. Jackson,MichaelFor27B,Democratic Party
+1097,1650,224285242,Michael Bennet,MichaelBennet,Democratic Party
+1098,1652,45645232,Michael Bennet,MichaelBennet,Democratic Party
+1099,1654,16581604,Michael Bloomberg,MikeBloomberg,Republican Party
+1100,1656,15751083,Michael C. Burgess,MichaelCBurgess,Republican Party
+1101,1657,23725826,Michael Cloud,RepCloudTX,Republican Party
+1102,1658,1039879658400112640,Michael Cloud,RepCloudTX,Republican Party
+1103,1659,39249305,Michael F. Doyle,USRepMikeDoyle,Democratic Party
+1105,1661,953749679166156800,Michael Guest,GuestCongress,Republican Party
+1106,1663,1081243468327018496,Michael Guest,GuestCongress,Republican Party
+1107,1665,161969197,Michael Hancock,MayorHancock,Democratic Party
+1109,1670,26424123,Michael McCaul,RepMcCaul,Republican Party
+1112,1675,50317463,Michael Steele,michaelsteele,Republican Party
+1113,1676,482708367,Michael Tubbs,MichaelDTubbs,Democratic Party
+1116,1680,104904750,Michele Reagan,SecretaryReagan,Republican Party
+1117,1682,1159929043816460288,Michelle Fischbach,FischbachMN7,Republican Party of Minnesota
+1118,1684,46413840,Michelle Giuda,michellegiuda,California Republican Party
+1119,1685,1070083706822438912,Michelle Lujan Grisham,GovMLG,Democratic Party
+1120,1686,409486555,Michelle Obama,MichelleObama,Democratic Party
+1123,1691,20659868,Michelle Wu,wutrain,Democratic Party
+1130,1698,2964877294,Mike Bost,RepBost,Republican Party
+1131,1699,1080870981877534720,Mike Braun,braun4indiana,Republican Party
+1132,1701,1861019372,Mike Braun,braun4indiana,Republican Party
+1136,1710,413160266,Mike Crapo,MikeCrapo,Republican Party
+1137,1712,600463589,Mike Crapo,MikeCrapo,Republican Party
+1138,1714,33977070,Mike D. Rogers,RepMikeRogersAL,Republican Party
+1139,1715,30887511,Mike DeWine,MikeDeWine,Republican Party
+1143,1720,3110994454,Mike Frerichs,ILTreasurer,Democratic Party
+1144,1721,815966620300480514,Mike Gallagher,RepGallagher,Republican Party
+1145,1722,43458175,Mike Gatto,mikegatto,Democratic Party
+1146,1723,14709326,Mike Gravel,GravelInstitute,Democratic Party
+1148,1726,15416505,Mike Huckabee,govmikehuckabee,Republican Party
+1149,1727,1060655470178787328,Mike J. Dunleavy,GovDunleavy,Republican Party
+1151,1730,827279765287559171,Mike Johnson,RepMikeJohnson,Republican Party
+1152,1732,935368364,Mike Kelly,MikeKellyPA,Republican Party
+1153,1733,88784440,Mike Lee,SenMikeLee,Republican Party
+1155,1737,2364318860,Mike Pantelides,MayorPantelides,Republican Party
+1157,1739,1003672320781807616,Mike Parson,GovParsonMO,Republican Party
+1159,1747,22203756,Mike Pence,mike_pence,Republican Party
+1162,1753,56864092,Mike Quigley,RepMikeQuigley,Democratic Party
+1164,1755,2955485182,Mike Rounds,SenatorRounds,Republican Party
+1165,1757,76132891,Mike Simpson,CongMikeSimpson,Republican Party
+1166,1758,303861808,Mike Thompson,RepThompson,Democratic Party
+1167,1759,51228911,Mike Turner,RepMikeTurner,Republican Party
+1169,1761,1577754348,Mikie Sherrill,MikieSherrill,Democratic Party
+1170,1763,1080569698536878081,Mikie Sherrill,MikieSherrill,Democratic Party
+1173,1770,102887944,Miro Weinberger,mirobtv,Democratic Party
+1175,1772,188000721,Mitch Landrieu,MitchLandrieu,Democratic Party
+1176,1773,339822881,Mitch McConnell,senatemajldr,Republican Party
+1177,1774,1249982359,Mitch McConnell,senatemajldr,Republican Party
+1178,1779,50055701,Mitt Romney,MittRomney,Republican Party
+1179,1780,237299871,Mo Brooks,RepMoBrooks,Republican Party
+1180,1781,98554447,Mo Cowan,mocowan,Democratic Party
+1181,1783,32598080,Monica Rodriguez,LadyMRod,Democratic Party
+1182,1784,28869095,Morgan Carroll,MorganLCarroll,Democratic Party
+1183,1785,234057152,Morgan Griffith,RepMGriffith,Republican Party
+1184,1787,489475164,Morris Davis,ColMorrisDavis,Democratic Party
+1185,1788,976542720,Muriel Bowser,MayorBowser,Democratic Party
+1186,1789,236541422,Nan Hayworth,NanHayworth,Republican Party
+1189,1792,914815520842616834,Nancy Mace,NancyMace,Republican Party
+1190,1793,62526458,Nancy Navarro,nancy_navarro,Democratic Party
+1191,1794,2461810448,Nancy Pelosi,SpeakerPelosi,Democratic Party
+1192,1795,15764644,Nancy Pelosi,SpeakerPelosi,Democratic Party
+1194,1797,816833925456789505,Nanette Barragán,RepBarragan,Democratic Party
+1195,1798,1356368317,Nate McMurray,Nate_McMurray,Democratic Party
+1196,1799,727970917008158720,Nate Tinbite,natetinbite,Democratic Party
+1198,1801,18997068,Nathan Fletcher,nathanfletcher,Republican Party
+1199,1803,815952318487298048,Neal Dunn,drnealdunnfl2,Republican Party
+1200,1805,3433189197,Neal Dunn,drnealdunnfl2,Republican Party
+1201,1807,24972208,Ned Lamont,GovNedLamont,Democratic Party
+1202,1808,1076293903723233280,Ned Lamont,GovNedLamont,Democratic Party
+1204,1811,20713061,Newt Gingrich,newtgingrich,Republican Party
+1205,1813,1613338004,Nick Bain,StateRepBain,Democratic Party
+1209,1820,37190669,Nikki Fried,nikkifried,Democratic Party
+1210,1821,1079776144524754944,Nikki Haley,nikkihaley,Republican Party
+1211,1823,188793260,Nina Turner,ninaturner,Democratic Party
+1214,1827,2409478435,Norma Torres,Norma4Congress,Democratic Party
+1215,1831,236279233,Norma Torres,Norma4Congress,Democratic Party
+1216,1836,164369297,Nydia M. Velázquez,NydiaVelazquez,Democratic Party
+1218,1838,16799621,Omarosa Manigault Newman,omarosa,Democratic Party
+1219,1842,18170310,Orrin Hatch,OrrinHatch,Republican Party
+1222,1845,93755660,Pam Bondi,PamBondi,Republican Party
+1223,1848,19599446,Pat Buchanan,PatrickBuchanan,Republican Party
+1226,1852,1671024336,Pat Spearman,Senatorspearman,Democratic Party
+1229,1855,461529170,Patrick A. Hope,HopeforVirginia,Democratic Party
+1230,1856,546820570,Patrick J. Kennedy,PJK4brainhealth,Democratic Party
+1231,1857,221162525,Patrick Joseph Toomey,SenToomey,Republican Party
+1232,1859,242836537,Patrick Leahy,SenatorLeahy,Democratic Party
+1233,1860,27676828,Patrick McHenry,PatrickMcHenry,Republican Party
+1235,1863,424511268,Patti Solis Doyle,PattiSolisDoyle,Democratic Party
+1236,1864,293131808,Patty Murray,PattyMurray,Democratic Party
+1238,1866,352548417,Paul Begala,PaulBegala,Democratic Party
+1239,1867,2864015602,Paul Bettencourt,TeamBettencourt,Republican Party
+1242,1870,240760644,Paul Gosar,repgosar,Republican Party
+1243,1872,20092276,Paul Krekorian,PaulKrekorian,Democratic Party
+1244,1873,2966173305,Paul Krizek,KrizekForVA,Democratic Party
+1246,1875,711188856943411200,Paul Manafort,PaulManafort,Republican Party
+1248,1877,18916432,Paul Ryan,SpeakerRyan,Republican Party
+1249,1880,84119348,Paul Tonko,RepPaulTonko,Democratic Party
+1250,1881,599742462,Paul Vallas,paulvallas,Republican Party
+1251,1883,18327000,Paula Jean Swearengin,paulajean2020,Democratic Party
+1253,1887,821763194372943872,Penny Pritzker,PennyPritzker,Democratic Party
+1254,1889,3018670151,Pete Aguilar,reppeteaguilar,Democratic Party
+1255,1890,226222147,Pete Buttigieg,petebuttigieg,Democratic Party
+1257,1892,15661604,Pete Hoekstra,petehoekstra,Republican Party
+1259,1894,2891165960,Pete Ricketts,GovRicketts,Republican Party
+1260,1895,24735461,Pete Sessions,PeteSessions,Republican Party
+1261,1896,1075830599007510535,Pete Stauber,RepPeteStauber,Republican Party
+1262,1898,883069589722198018,Pete Stauber,RepPeteStauber,Republican Party
+1264,1901,252249233,Peter DeFazio,RepPeterDeFazio,Democratic Party
+1265,1902,18277655,Peter King,reppeteking,Republican Party
+1267,1905,1410590874,Peter Welch,PeterWelch,Democratic Party
+1268,1907,919993894141603840,Phil Bredesen,PhilBredesen,Democratic Party
+1269,1908,231592153,Phil Bryant,PhilBryantMS,Republican Party
+1270,1909,948946378939609089,Phil Murphy,GovMurphy,Democratic Party
+1271,1910,3438358100,Phil Murphy,GovMurphy,Democratic Party
+1273,1912,545107258,Phil Scott,GovPhilScott,Republican Party
+1274,1913,21579611,Phil Ting,PhilTing,California Democratic Party
+1275,1915,44767773,Philip E. Berger,SenatorBerger,Republican Party
+1276,1916,1281274039,Philip Levine,MayorLevine,Democratic Party
+1277,1918,815733290955112448,Pramila Jayapal,RepJayapal,Democratic Party
+1279,1921,17025489,Rafael Anchia,rafaelanchia,Democratic Party
+1281,1923,814179031956488192,Raja Krishnamoorthi,congressmanraja,Democratic Party
+1283,1927,880480631108644864,Ralph Norman,RepRalphNorman,Republican Party
+1286,1932,216881337,Rand Paul,RandPaul,Republican Party
+1288,1935,23764160,Randy Feenstra,RandyFeenstra,Republican Party
+1292,1940,1058051748,Randy Weber,TXRandy14,Republican Party
+1293,1942,435331179,Rashida Tlaib,RashidaTlaib,Democratic Party
+1294,1944,40788497,Ravinder Bhalla,RaviBhalla,Democratic Party
+1295,1946,278642216,Raymond Buckley,ChairmanBuckley,Democratic Party
+1296,1947,28602948,Raúl Grijalva,RepraulGrijalva,Democratic Party
+1297,1949,246341769,Raúl Labrador,Raul_Labrador,Republican Party
+1300,1953,234053893,Reid Ribble,RepRibble,Republican Party
+1301,1954,20733972,Reince Priebus,Reince,Republican Party
+1302,1955,388404837,Rene Garcia,senrenegarcia,Republican Party
+1303,1956,213634439,Renee Ellmers,RepReneeEllmers,Republican Party
+1304,1957,57172253,Reshma Saujani,reshmasaujani,Democratic Party
+1305,1958,45946399,Rhonda Keenum,RhondaKeenum,Republican Party
+1306,1960,80013913,Ricardo Rosselló,ricardorossello,Democratic Party
+1308,1965,278124059,Richard Blumenthal,SenBlumenthal,Democratic Party
+1310,1967,19637767,Richard Cordray,RichCordray,Democratic Party
+1311,1968,173979063,Richard Gottfried,dickgottfried,Democratic Party
+1312,1969,935033864,Richard Hudson,RepRichHudson,Republican Party
+1316,1975,442824717,Richard Neal,RepRichardNeal,Democratic Party
+1317,1976,2863996955,Richard Painter,RWPUSA,Democratic Party
+1318,1978,33563099,Richard Petty,rpmotorsports,Republican Party
+1319,1979,21111098,Richard Shelby,SenShelby,Republican Party
+1321,1983,62009570,Rick Kriseman,Kriseman,Democratic Party
+1322,1984,404132211,Rick Larsen,RepRickLarsen,Democratic Party
+1325,1989,18906561,Rick Perry,SecretaryPerry,Democratic Party
+1328,1998,58379000,Rick Santorum,ricksantorum,Republican Party
+1329,1999,131546062,Rick Scott,SenRickScott,Republican Party
+1330,2000,306389855,Rick Scott,SenRickScott,Republican Party
+1332,2002,2964287128,Rick W. Allen,reprickallen,Republican Party
+1333,2003,2595555014,Rip Sullivan,RipSullivan48,Democratic Party
+1334,2004,1247612029,Ritchie Torres,RitchieTorres,Democratic Party
+1335,2005,771152516,Ro Khanna,RoKhanna,Democratic Party
+1336,2007,816298918468259841,Ro Khanna,RoKhanna,Democratic Party
+1337,2009,21757802,Rob Astorino,RobAstorino,Republican Party
+1339,2011,184440525,Rob Bonta,RobBonta,California Democratic Party
+1340,2012,15356407,Rob Wittman,RobWittman,Republican Party
+1342,2014,407230590,Robby Wells,ElectRobbyWells,Democratic Party
+1344,2016,76452765,Robert Aderholt,Robert_Aderholt,Republican Party
+1347,2020,18120497,Robert Garcia,RobertGarciaLB,Republican Party
+1349,2024,55685994,Robert Hertzberg,hertzieLA,Democratic Party
+1351,2027,2612307559,Robert Jones Portman,senrobportman,Republican Party
+1352,2029,18915145,Robert Jones Portman,senrobportman,Republican Party
+1353,2031,18695134,Robert Menendez,SenatorMenendez,Democratic Party
+1354,2032,950328072,Robert Pittenger,RepPittenger,Republican Party
+1356,2034,148529707,Robert Reich,RBReich,Democratic Party
+1357,2036,722095957077196800,Robert Torricelli,bobtorricelli,Democratic Party
+1358,2037,1339931490,Robin Kelly,RepRobinKelly,Democratic Party
+1360,2040,2965083477,Rod Blum,RepRodBlum,Republican Party
+1361,2041,23438894,Rodney Ellis,rodneyellis,Democratic Party
+1363,2043,993153006,Rodney L. Davis,RodneyDavis,Republican Party
+1365,2045,1240107944,Roger Marshall,RogerMarshallMD,Republican Party
+1367,2047,264219447,Roger Wicker,SenatorWicker,Republican Party
+1368,2049,1077446982,Roger Williams,RepRWilliams,Republican Party
+1369,2050,256074273,Roland Gutierrez,RolandForTexas,Democratic Party
+1371,2053,487297085,Ron DeSantis,RepDeSantis,Republican Party
+1372,2055,854715071116849157,Ron Estes,RepRonEstes,Republican Party
+1373,2057,233737858,Ron Johnson,SenRonJohnson,Republican Party
