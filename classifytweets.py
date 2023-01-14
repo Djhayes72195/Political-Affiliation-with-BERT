@@ -1,6 +1,6 @@
 # Data cleaning for model fitting
 import os
-os.chdir('/Users/dustinhayes/Desktop/STAT766Final')
+# os.chdir('/Users/dustinhayes/Desktop/STAT766Final')
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 import pandas as pd
@@ -20,7 +20,7 @@ from sklearn.model_selection import train_test_split
 
 #You will have to change the path on the next line.  It should point to wherever you put the
 #dataset I gave you.
-df = pd.read_csv('/Users/dustinhayes/Desktop/STAT766Final/BERT_csvs/text&party&IDs.csv')
+df = pd.read_csv('text_party_IDs.csv')
 temp_df_dem = df.loc[df['Party'] == 'Democratic Party']
 temp_df_rep = df.loc[df['Party'] == 'Republican Party']
 dem_list = list(set(temp_df_dem['UserID']))
@@ -32,9 +32,6 @@ user_list = rep_list + dem_list
 train_users, test_users = train_test_split(user_list, test_size=int(.5*len(user_list)))
 test_users, validation_users = train_test_split(test_users, test_size=int(.4*len(test_users)))
 
-print(len(train_users))
-print(len(test_users))
-print(len(validation_users))
 
 
 counter2 = 0
@@ -140,9 +137,9 @@ class Dataset(torch.utils.data.Dataset):
 df_train = split_into_512_approx(train_users, 7)
 df_val = split_into_512_approx(validation_users, 7)
 df_test = split_into_512_approx(test_users, 7)
-df_val.to_csv('/Users/dustinhayes/Desktop/STAT766Final/BERT_results/val_confirm.csv')
-df_train.to_csv('/Users/dustinhayes/Desktop/STAT766Final/BERT_results/df_train_confirm.csv')
-df_test.to_csv('/Users/dustinhayes/Desktop/STAT766Final/BERT_results/test_confirm.csv')
+# df_val.to_csv('/Users/dustinhayes/Desktop/STAT766Final/BERT_results/val_confirm.csv')
+# df_train.to_csv('/Users/dustinhayes/Desktop/STAT766Final/BERT_results/df_train_confirm.csv')
+# df_test.to_csv('/Users/dustinhayes/Desktop/STAT766Final/BERT_results/test_confirm.csv')
 print(df_val)
 print(df_test)
 print('df_test={}'.format(df_test))
@@ -291,7 +288,7 @@ def evaluate(model, test_data):
     df_test['UserID'] = user_ID_add_later
     df_test['Predictions'] = test_prediction
     df_test.drop(columns=['Text'])
-    df_test.to_csv('/Users/dustinhayes/Desktop/STAT766Final/BERT_results/testresults_good_split.csv')
+    df_test.to_csv('BERT_results/testresults_good_split.csv')
     print(f'Test Accuracy: {total_acc_test / len(test_data): .3f}')
     
 evaluate(model, df_test)

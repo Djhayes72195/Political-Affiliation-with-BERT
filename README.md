@@ -1,7 +1,6 @@
 # Political-Affiliation-with-BERT
 
-Uploaded for safekeeping.  The code here was used to train a BERT model to classify politicians by party affiliation.  The data that we used
-is not included here.  More data could be generated with the data processing notebook here, but you would need your own bearer token.  The logistic model was included as a record, but classifytweets.py, which uses a linear neural network classifier, is what we found the most success with.  We achieve around 86% accuracy with this method. 
+Uploaded for safekeeping.  The code here was used to train a BERT model to classify politicians by party affiliation.  The data we used to train our model is included in test_party_IDs.csv.  The logistic model was included as a record, but classifytweets.py, which uses a linear neural network classifier, is what we found the most success with.  We achieve around 86% accuracy with this method. 
 
 Plans for the future:
 
