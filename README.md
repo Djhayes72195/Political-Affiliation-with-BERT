@@ -24,7 +24,13 @@ The majority of the project is contained in three files: "data_collection_&_proc
     - Use the tweet chunks to train BERT paired with a linear NN classifier.  This tends to take 7-10 hours.
     - Once BERT has trained over however many EPOCHS specified (we had the most success with 5), a csv containg the results for the run will be written.
 
+"evaluation.ipynb" takes the results from the classifier and performs some simple operations/calculations
 
+"evaluation.ipynb" steps:
+
+    - Rewrite output from classifytweets.py for readability.  Removes "Text" column, converts Democrat to 0 and Republican to 1, then writes the resulting dataframe as       a csv in Data_for_evaluation.  Calculates chunk-wise accuracy.
+    - Creates user-level dataframe where each prediction in the most common prediction among chunks belonging to a particular user. Calculates user-wise accuracy.
+    - A function to calculate the confusion matrix for either user-level or chunk-level results is also included.
 
 Plans for the future:
 
