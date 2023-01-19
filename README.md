@@ -2,7 +2,7 @@
 
 Uploaded for safekeeping.  The code here was used to train a BERT model to classify politicians by party affiliation.  The data we used to train our model is included in test_party_IDs.csv.  The logistic model was included as a record, but classifytweets.py, which uses a linear neural network classifier, is what we found the most success with.  We achieve around 86% accuracy with this method. 
 
-The majority of the project is contained in three files: "data_collection_&_processing.ipynb", "classifytweets.py", and "evaluation.ipynb". "data_collection_&_processing.ipynb" is a Jupyter notebook that contains all of the steps required to go from our initial data source, found at "Data\\Original_kaggle_dataset.csv", which contains the user IDs and political affiliation of a good number of US politicians, to the dataset used for training our model.
+The majority of the project is contained in three files: "data_collection_&_processing.ipynb", "classifytweets.py", and "evaluation.ipynb". "data_collection_&_processing.ipynb" is a Jupyter notebook that contains all of the steps required to generate the data we used to train the model.
 
 "data_collection_&_processing.ipynb" steps:
     - Drop 3rd party politicians.  
