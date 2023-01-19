@@ -5,6 +5,7 @@ Uploaded for safekeeping.  The code here was used to train a BERT model to class
 The majority of the project is contained in three files: "data_collection_&_processing.ipynb", "classifytweets.py", and "evaluation.ipynb". "data_collection_&_processing.ipynb" is a Jupyter notebook that contains all of the steps required to generate the data we used to train the model.
 
 "data_collection_&_processing.ipynb" steps:
+    
     - Drop 3rd party politicians.  
     - Drop politicians unactive on twitter.
     - Use twitter API to get 1000 tweets (not retweets) for each user.  Write tweets into csvs corresponding to each user, one tweet per row.
@@ -15,9 +16,10 @@ The majority of the project is contained in three files: "data_collection_&_proc
 "classifytweets.py" is where all of the modeling is done.  There is also some data parsing.
 
 "classifytweets.py" steps:
+    
     - Balance the data (we have more Dems than Reps after the list is filtered down).
     - Assign each User IDs into either the training, validation or test set (we used a 50/30/20 split).
-    - Concatonate tweets belonging to each politician into an odd number of <500 word chunks (BERT can only handle 512 tokens at a time).  Use longest tweets to construct the chunks.
+    - Concatonate tweets belonging to each politician into an odd number of <500 word chunks (BERT can only handle 512 tokens at a time).  Use longest tweets to             construct the chunks.
     - Construct training/validation/test set out of the chunks belonging to each politician assigned to the training/validation/test set.
     - Use the tweet chunks to train BERT paired with a linear NN classifier.  This tends to take 7-10 hours.
     - Once BERT has trained over however many EPOCHS specified (we had the most success with 5), a csv containg the results for the run will be written.
