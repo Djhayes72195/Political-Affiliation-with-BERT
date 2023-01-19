@@ -222,7 +222,7 @@ def train(model, train_data, val_data, learning_rate, epochs):
                 | Val Accuracy: {total_acc_val / len(val_data): .3f}')
 
 # Note on hyperparameters: EPOCHS=5 and LR (learning rate) = 1e-6
-# is about right.  More EPOCHS results in overfitting with the
+# seems to be about right.  More EPOCHS results in overfitting with the
 # size of data we were running with.  Increasing learning rate
 # makes the results unstable.                  
 EPOCHS = 5
@@ -274,7 +274,7 @@ def evaluate(model, test_data):
     df_test['Predictions'] = test_prediction
     df_test.drop(columns=['Text'])
     # Results are written here.
-    df_test.to_csv('Data\\Data_for_evaluation\\testresults.csv')
+    df_test.to_csv('Data\\Raw_BERT_results\\testresults.csv')
     print(f'Test Accuracy: {total_acc_test / len(test_data): .3f}')
     
 evaluate(model, df_test)
