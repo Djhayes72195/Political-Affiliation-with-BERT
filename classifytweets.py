@@ -1,6 +1,4 @@
-# Data cleaning for model fitting
 import os
-# os.chdir('/Users/dustinhayes/Desktop/STAT766Final')
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 import pandas as pd
@@ -17,35 +15,39 @@ import random
 from sklearn.model_selection import train_test_split
 
 
-
-#You will have to change the path on the next line.  It should point to wherever you put the
-#dataset I gave you.
-df = pd.read_csv('text_party_IDs.csv')
+os.getcwd()
+# First we balance the data set.
+df = pd.read_csv('Data\\text_party_IDs.csv')
 temp_df_dem = df.loc[df['Party'] == 'Democratic Party']
 temp_df_rep = df.loc[df['Party'] == 'Republican Party']
 dem_list = list(set(temp_df_dem['UserID']))
 rep_list = list(set(temp_df_rep['UserID']))
 dem_list = random.sample(dem_list, len(rep_list))
 user_list = rep_list + dem_list
-# Next line JUST for testing
-# user_list = random.sample(user_list, 30)
+
+# Then we assign users to training/validation/testing sets.
+# The split is 50/30/20.
 train_users, test_users = train_test_split(user_list, test_size=int(.5*len(user_list)))
 test_users, validation_users = train_test_split(test_users, test_size=int(.4*len(test_users)))
 
 
 
 counter2 = 0
-def split_into_512_approx(users, tweet_blocks_per_user, no_of_tweets=0, chunk_by_length=True):
-    """This function will take in a list of users and construct either test
-    or train dataframe.  If chunk by length you should specify how many tweet
-    blocks you want per user.  If not, you should specify how many tweets you want from
-    each user with no_of_tweets. In each case, the longest tweets will be picked first, on the
+def split_into_512_approx(users, tweet_chunks_per_user):
+    """This function will take in a list of users and construct either test,
+    validation, or training dataframe.  tweet_blocks per user specifies how many chunks of tweets
+    we wish to include for each user.  Each tweet chunk is a concatenation of tweets by a particular user.
+    This function will ensure that no tweet chunk contains more than 500 words, as BERT can only handle
+    512 tokens at a time. The chunks will be constructed with the longest tweets first, on the
     assumption that longer tweets would be more likely to contain political messaging.
-    I'm not sure why, but you get a few more tweets than what you actually
-    put in the argument.  
+
+    We could have run BERT with individual tweets as opposed to tweet chunks, and we did try that
+    many times.  We aren't exactly sure why, but chunking the tweets together seemed to produce
+    better results and made computation faster.   
 
     This function was constructed so as to ensure that tweets from any particular
-    politician only appear in only the test or training set, but not both.
+    politician only appear in only the test, validation or training set, not some
+    combination of the three.
     """
     df_out = pd.DataFrame(columns=['Party', 'Text', 'UserID'])
     num_dem = 0
@@ -72,25 +74,17 @@ def split_into_512_approx(users, tweet_blocks_per_user, no_of_tweets=0, chunk_by
         working_string = ''
         for index in max_indexes:
             data = temp_df['Text'].iloc[index]
-            if chunk_by_length:
-                if counter >= tweet_blocks_per_user:
-                    break
-                if len((working_string + ' ' + data).split(' ')) > 500:
-                    df_out = df_out.append({'Party': temp_df['Party'].iloc[0], 'Text': working_string, 'UserID': user}, ignore_index=True)
-                    working_string = ''
-                    counter += 1
-                else: 
-                    working_string = working_string + ' ' + data
-                    counter2 += 1
-            else:
-                if counter >= (no_of_tweets):
-                    break
-                else:
-                    df_out = df_out.append({'Party': temp_df['Party'].iloc[0], 'Text': data, 'UserID': user}, ignore_index=True)
-                    counter += 1
-                    counter2 += 1
-    print(counter2)
-    print(num_dem, num_rep)
+            if counter >= tweet_chunks_per_user:
+                break
+            if len((working_string + ' ' + data).split(' ')) > 500:
+                df_out = df_out.append({'Party': temp_df['Party'].iloc[0], 'Text': working_string, 'UserID': user}, ignore_index=True)
+                working_string = ''
+                counter += 1
+            else: 
+                working_string = working_string + ' ' + data
+                counter2 += 1
+    print("Number of Democrats = {}".format(num_dem))
+    print("Number of Republicans = {}".format(num_rep))
     return df_out
 
 # Dataset class
@@ -128,21 +122,13 @@ class Dataset(torch.utils.data.Dataset):
 
         return batch_texts, batch_y
 
-# split the dataframe into training, validation, and test set
-# np.random.seed(115)
-# df_train, df_val, df_test = np.split(df.sample(frac=1, random_state=42), [int(.8*len(df)), int(.9*len(df))])
-# print(len(df_train),len(df_val), len(df_test))
-# # BERT model
-# new method of creating test/train dfs s.t. any particular pol only appears in one
+# call the function to construct training/val/test sets
+# on our lists of User IDs corresponding to each.
 df_train = split_into_512_approx(train_users, 7)
 df_val = split_into_512_approx(validation_users, 7)
 df_test = split_into_512_approx(test_users, 7)
-# df_val.to_csv('/Users/dustinhayes/Desktop/STAT766Final/BERT_results/val_confirm.csv')
-# df_train.to_csv('/Users/dustinhayes/Desktop/STAT766Final/BERT_results/df_train_confirm.csv')
-# df_test.to_csv('/Users/dustinhayes/Desktop/STAT766Final/BERT_results/test_confirm.csv')
-print(df_val)
-print(df_test)
-print('df_test={}'.format(df_test))
+
+# Drop User IDs, save the test set IDs for evaluation.
 df_train.drop('UserID', axis=1)
 df_val.drop('UserID', axis=1)
 user_ID_add_later = list(df_test['UserID'])
@@ -157,7 +143,6 @@ class BertClassifier(nn.Module):
 
         self.bert = BertModel.from_pretrained('bert-base-cased')
         self.dropout = nn.Dropout(dropout)
-        #I changed the 5 in the next one to 2 for testing
         self.linear = nn.Linear(768, 2)
         self.relu = nn.ReLU()
 
@@ -170,8 +155,6 @@ class BertClassifier(nn.Module):
 
         return final_layer
 
-# train BERT model
-#@jit(target_backend='cuda')
 def train(model, train_data, val_data, learning_rate, epochs):
 
     train, val = Dataset(train_data), Dataset(val_data)
@@ -237,20 +220,24 @@ def train(model, train_data, val_data, learning_rate, epochs):
                 | Train Accuracy: {total_acc_train / len(train_data): .3f} \
                 | Val Loss: {total_loss_val / len(val_data): .3f} \
                 | Val Accuracy: {total_acc_val / len(val_data): .3f}')
-                  
+
+# Note on hyperparameters: EPOCHS=5 and LR (learning rate) = 1e-6
+# is about right.  More EPOCHS results in overfitting with the
+# size of data we were running with.  Increasing learning rate
+# makes the results unstable.                  
 EPOCHS = 5
 model = BertClassifier()
 LR = 1e-6
 
-#@jit(target_backend='cuda')
-#def trainv2():
 train(model, df_train, df_val, LR, EPOCHS)
-
-#trainv2()
 
 # Evaluate the model using testing data
 def evaluate(model, test_data):
     test = Dataset(test_data)
+    # batch_size = 2 is what produced the best results for us.
+    # Increasing batch_size i.e. how many attention head calculations
+    # before recalculating embeddings did make the code go faster,
+    # but tended to affect performance.
     test_dataloader = torch.utils.data.DataLoader(test, batch_size=2)
 
     use_cuda = torch.cuda.is_available()
@@ -279,8 +266,6 @@ def evaluate(model, test_data):
                 correct_or_no.append('no')
             else:
                 correct_or_no.append('yes')
-            print(output.argmax(dim=1))
-            # test_prediction.append(output.argmax(dim=1))
             for prediction in output.argmax(dim=1).flatten().tolist():
                 test_prediction.append(prediction)
             total_acc_test += acc
@@ -288,7 +273,8 @@ def evaluate(model, test_data):
     df_test['UserID'] = user_ID_add_later
     df_test['Predictions'] = test_prediction
     df_test.drop(columns=['Text'])
-    df_test.to_csv('BERT_results/testresults_good_split.csv')
+    # Results are written here.
+    df_test.to_csv('Data\\Data_for_evaluation\\testresults.csv')
     print(f'Test Accuracy: {total_acc_test / len(test_data): .3f}')
     
 evaluate(model, df_test)
