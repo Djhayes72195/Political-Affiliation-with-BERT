@@ -12,28 +12,12 @@ from torch.optim import Adam
 from tqdm import tqdm
 from collections import Counter
 import random
+import joblib
 from sklearn.model_selection import train_test_split
 
 
-os.getcwd()
-# First we balance the data set.
-df = pd.read_csv('Data\\text_party_IDs.csv')
-temp_df_dem = df.loc[df['Party'] == 'Democratic Party']
-temp_df_rep = df.loc[df['Party'] == 'Republican Party']
-dem_list = list(set(temp_df_dem['UserID']))
-rep_list = list(set(temp_df_rep['UserID']))
-dem_list = random.sample(dem_list, len(rep_list))
-user_list = rep_list + dem_list
 
-# Then we assign users to training/validation/testing sets.
-# The split is 50/30/20.
-train_users, test_users = train_test_split(user_list, test_size=int(.5*len(user_list)))
-test_users, validation_users = train_test_split(test_users, test_size=int(.4*len(test_users)))
-
-
-
-counter2 = 0
-def split_into_512_approx(users, tweet_chunks_per_user):
+def split_into_512_approx(users, tweet_chunks_per_user, all_info):
     """This function will take in a list of users and construct either test,
     validation, or training dataframe.  tweet_blocks per user specifies how many chunks of tweets
     we wish to include for each user.  Each tweet chunk is a concatenation of tweets by a particular user.
@@ -52,7 +36,6 @@ def split_into_512_approx(users, tweet_chunks_per_user):
     df_out = pd.DataFrame(columns=['Party', 'Text', 'UserID'])
     num_dem = 0
     num_rep = 0
-    all_info = df
     counter2 = 0
     for user in users:
         temp_df = all_info.loc[all_info['UserID'] == user]
@@ -83,15 +66,12 @@ def split_into_512_approx(users, tweet_chunks_per_user):
             else: 
                 working_string = working_string + ' ' + data
                 counter2 += 1
-    print("Number of Democrats = {}".format(num_dem))
-    print("Number of Republicans = {}".format(num_rep))
     return df_out
 
-# Dataset class
 tokenizer = BertTokenizer.from_pretrained('bert-base-cased')
 labels = {'Democratic Party':0,'Republican Party':1}
 
-
+# Dataset class
 class Dataset(torch.utils.data.Dataset):
 
     def __init__(self, df):
@@ -122,18 +102,6 @@ class Dataset(torch.utils.data.Dataset):
 
         return batch_texts, batch_y
 
-# call the function to construct training/val/test sets
-# on our lists of User IDs corresponding to each.
-df_train = split_into_512_approx(train_users, 7)
-df_val = split_into_512_approx(validation_users, 7)
-df_test = split_into_512_approx(test_users, 7)
-
-# Drop User IDs, save the test set IDs for evaluation.
-df_train.drop('UserID', axis=1)
-df_val.drop('UserID', axis=1)
-user_ID_add_later = list(df_test['UserID'])
-df_test.drop('UserID', axis=1)
-
 
 class BertClassifier(nn.Module):
 
@@ -158,7 +126,10 @@ class BertClassifier(nn.Module):
 def train(model, train_data, val_data, learning_rate, epochs):
 
     train, val = Dataset(train_data), Dataset(val_data)
-
+    # batch_size = 2 is what produced the best results for us.
+    # Increasing batch_size i.e. how many attention head calculations
+    # before recalculating embeddings did make the code go faster,
+    # but tended to affect performance.
     train_dataloader = torch.utils.data.DataLoader(train, batch_size=2, shuffle=True)
     val_dataloader = torch.utils.data.DataLoader(val, batch_size=2)
 
@@ -229,15 +200,11 @@ EPOCHS = 5
 model = BertClassifier()
 LR = 1e-6
 
-train(model, df_train, df_val, LR, EPOCHS)
-
 # Evaluate the model using testing data
-def evaluate(model, test_data):
+def evaluate(model, test_data, user_IDs, save_results=False):
+
     test = Dataset(test_data)
-    # batch_size = 2 is what produced the best results for us.
-    # Increasing batch_size i.e. how many attention head calculations
-    # before recalculating embeddings did make the code go faster,
-    # but tended to affect performance.
+    
     test_dataloader = torch.utils.data.DataLoader(test, batch_size=2)
 
     use_cuda = torch.cuda.is_available()
@@ -270,12 +237,60 @@ def evaluate(model, test_data):
                 test_prediction.append(prediction)
             total_acc_test += acc
             counter += 1
-    df_test['UserID'] = user_ID_add_later
-    df_test['Predictions'] = test_prediction
-    df_test.drop(columns=['Text'])
-    # Results are written here.
-    df_test.to_csv('Data\\Raw_BERT_results\\testresults.csv')
+    test_data['UserID'] = user_IDs
+    test_data['Predictions'] = test_prediction
     print(f'Test Accuracy: {total_acc_test / len(test_data): .3f}')
-    
-evaluate(model, df_test)
-print(LR, EPOCHS)
+
+    if not save_results:
+        return test_data
+    else:
+        test_data.to_csv('Data\\Raw_BERT_results\\testresults_1_29_23.csv')
+
+
+def main():
+
+    # First we balance the data set.
+    df = pd.read_csv('Data\\text_party_IDs.csv')
+    temp_df_dem = df.loc[df['Party'] == 'Democratic Party']
+    temp_df_rep = df.loc[df['Party'] == 'Republican Party']
+    dem_list = list(set(temp_df_dem['UserID']))
+    print("length of dem list before sample = {}".format(len(dem_list)))
+    rep_list = list(set(temp_df_rep['UserID']))
+    print("length of rep list = {}".format(len(rep_list)))
+    dem_list = random.sample(dem_list, len(rep_list))
+    print("length of dem list after sample = {}".format(len(dem_list)))
+
+    # Divide training/validation/test sets s.t. each has an equal number of dems and reps. 50/30/20 train/val/test split
+    train_dems, test_dems = train_test_split(dem_list, test_size=int(.5*len(dem_list)))
+    validation_dems, test_dems = train_test_split(test_dems, test_size=int(.4*len(test_dems)))
+    train_reps, test_reps = train_test_split(rep_list, test_size=int(.5*len(rep_list)))
+    validation_reps, test_reps = train_test_split(test_reps, test_size=int(.4*len(test_reps)))
+
+    train_users = train_dems + train_reps
+    validation_users = validation_dems + validation_reps
+    test_users = test_dems + test_reps
+    print(len(test_users))
+    print(len(validation_users))
+    print(len(train_users))
+
+    # call the function to construct training/val/test sets
+    # on our lists of User IDs corresponding to each.
+    df_train = split_into_512_approx(train_users, 7, df)
+    df_val = split_into_512_approx(validation_users, 7, df)
+    df_test = split_into_512_approx(test_users, 7, df)
+
+    # Drop User IDs, save the test set IDs for evaluation.
+    df_train.drop('UserID', axis=1)
+    df_val.drop('UserID', axis=1)
+    user_ID_add_later = list(df_test['UserID'])
+    df_test.drop('UserID', axis=1)
+
+    train(model, df_train, df_val, LR, EPOCHS)
+    filename = 'trained_model_1_29_23.joblib'
+    # serialize and save model
+    joblib.dump(model, filename)
+    evaluate(model, df_test, user_ID_add_later, save_results=True)
+    print(LR, EPOCHS)
+
+if __name__ == "__main__":
+    main()
