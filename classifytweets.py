@@ -26,7 +26,7 @@ def split_into_512_approx(users, tweet_chunks_per_user, all_info):
 
     We could have run BERT with individual tweets as opposed to tweet chunks, and we did try that
     many times.  We aren't exactly sure why, but chunking the tweets together seemed to produce
-    better results and made computation faster.   
+    better results and made computation faster.
 
     This function was constructed so as to ensure that tweets from any particular
     politician only appear in only the test, validation or training set, not some
