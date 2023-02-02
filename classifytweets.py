@@ -16,7 +16,6 @@ import joblib
 from sklearn.model_selection import train_test_split
 
 
-
 def split_into_512_approx(users, tweet_chunks_per_user, all_info):
     """This function will take in a list of users and construct either test,
     validation, or training dataframe.  tweet_blocks per user specifies how many chunks of tweets
@@ -101,7 +100,6 @@ class Dataset(torch.utils.data.Dataset):
         batch_y = self.get_batch_labels(idx)
 
         return batch_texts, batch_y
-
 
 class BertClassifier(nn.Module):
 
@@ -254,11 +252,8 @@ def main():
     temp_df_dem = df.loc[df['Party'] == 'Democratic Party']
     temp_df_rep = df.loc[df['Party'] == 'Republican Party']
     dem_list = list(set(temp_df_dem['UserID']))
-    print("length of dem list before sample = {}".format(len(dem_list)))
     rep_list = list(set(temp_df_rep['UserID']))
-    print("length of rep list = {}".format(len(rep_list)))
     dem_list = random.sample(dem_list, len(rep_list))
-    print("length of dem list after sample = {}".format(len(dem_list)))
 
     # Divide training/validation/test sets s.t. each has an equal number of dems and reps. 50/30/20 train/val/test split
     train_dems, test_dems = train_test_split(dem_list, test_size=int(.5*len(dem_list)))
@@ -269,9 +264,6 @@ def main():
     train_users = train_dems + train_reps
     validation_users = validation_dems + validation_reps
     test_users = test_dems + test_reps
-    print(len(test_users))
-    print(len(validation_users))
-    print(len(train_users))
 
     # call the function to construct training/val/test sets
     # on our lists of User IDs corresponding to each.
@@ -286,7 +278,7 @@ def main():
     df_test.drop('UserID', axis=1)
 
     train(model, df_train, df_val, LR, EPOCHS)
-    filename = 'trained_model_1_29_23.joblib'
+    filename = 'test_trained_model.joblib'
     # serialize and save model
     joblib.dump(model, filename)
     evaluate(model, df_test, user_ID_add_later, save_results=True)
