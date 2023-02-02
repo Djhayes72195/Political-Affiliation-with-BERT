@@ -119,7 +119,7 @@ The resulting training and validation dataframes are then used to train the BERT
 
 After chunk-level predictions on a test set have been generated and saved to a csv, this file can be used to calculate chunk-level accuracy, user-level accuracy, and construct a confusion matrix. The original purpose of this project was to create a system that could classify users, not individual tweets or chunks of tweets. As such, calculation of user-level accuracy is perhaps the most important operation performed here. User level predictions are obtained by putting those tweet chunks belonging to a particular user to a vote. For example, if 4 of the 7 tweet chunks belonging to User 1 were predicted to be Democrat, the user-level prediction for User 1 is Democrat. User-level accuracy is then calculated as number of correct user-level predictions over total number of predictions. Further details are discussed in the markdown cells within evaluation.ipynb.
 
-![Diagram of evaluation.ipynb](./Diagrams/evaluation.png)
+![Diagram of evaluation.ipynb](./Diagrams/Evaluation.png)
 
 
 ## Reflection
