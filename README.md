@@ -5,19 +5,19 @@ Created by: Dustin Hayes, Francis Jo and Nicholas Mackay
 
 ## Table of Contents
 
-- [Background](https://github.com/Djhayes72195/Political-Affiliation-with-BERT/edit/main/README.md#background)
+- [Background](https://github.com/Djhayes72195/Political-Affiliation-with-BERT#background)
 
-- [Potential Uses](https://github.com/Djhayes72195/Political-Affiliation-with-BERT/edit/main/README.md#potential-uses)
+- [Potential Uses](https://github.com/Djhayes72195/Political-Affiliation-with-BERT#potential-uses)
 
-- [Project Status](https://github.com/Djhayes72195/Political-Affiliation-with-BERT/edit/main/README.md#project-status)
+- [Project Status](https://github.com/Djhayes72195/Political-Affiliation-with-BERT#project-status)
 
-- [Installation Instructions](https://github.com/Djhayes72195/Political-Affiliation-with-BERT/edit/main/README.md#installation-instructions)
+- [Installation Instructions](https://github.com/Djhayes72195/Political-Affiliation-with-BERT#installation-instructions)
 
-- [Structure](https://github.com/Djhayes72195/Political-Affiliation-with-BERT/edit/main/README.md#structure)
+- [Structure](https://github.com/Djhayes72195/Political-Affiliation-with-BERT#structure)
 
-- [Reflection](https://github.com/Djhayes72195/Political-Affiliation-with-BERT/edit/main/README.md#reflection)
+- [Reflection](https://github.com/Djhayes72195/Political-Affiliation-with-BERT#reflection)
 
-- [Acknowledgements](https://github.com/Djhayes72195/Political-Affiliation-with-BERT/edit/main/README.md#acknowledgements)
+- [Acknowledgements](https://github.com/Djhayes72195/Political-Affiliation-with-BERT#acknowledgements)
 
 ## Background
 
