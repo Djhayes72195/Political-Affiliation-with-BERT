@@ -45,14 +45,32 @@ This project is currently in development. The code here is capable of gathering 
 
 ## Installation Instructions
 
-These instructions assume that Python 3 is installed.
+In order for this project to clone properly, you will need to have the git large file storage (LFS) command line client installed. The following instructions on how to install git LFS were pulled from https://www.atlassian.com/git/tutorials/git-lfs#:~:text=Installing%20Git%20LFS,-There%20are%20three&text=Install%20Sourcetree%2C%20a%20free%20Git,run%20git%20lfs%20install%20once.
+
+1. There are three easy ways to install Git LFS:
+
+        a. Install it using your favorite package manager. git-lfs packages are available for Homebrew, MacPorts, dnf, and packagecloud; or
+
+        b. Download and install Git LFS from the project website; or
+
+        c. Install Sourcetree, a free Git GUI client that comes bundled with Git LFS.
+
+2. Once git-lfs is on your path, run git lfs install to initialize Git LFS (you can skip this step if you installed Sourcetree):
+
+```
+git lfs install
+```
+
+You'll only need to run git lfs install once. Once initialized for your system, Git LFS will bootstrap itself automatically when you clone a repository containing Git LFS content.
+
+Once Git LFS is installed, continue with the following steps. These instructions assume that you have Python 3.
 
 1. Clone this repository to your local machine.
 
 2. Navigate to this project.
 
 ```
-cd <location_on_your_machine\Political-Affiliation-with-BERT>
+cd <location_on_your_machine/Political-Affiliation-with-BERT>
 ```
 
 3. Install requirements.
@@ -61,7 +79,7 @@ cd <location_on_your_machine\Political-Affiliation-with-BERT>
 pip3 install -r requirements.txt
 ```
 
-The next steps depend on what you would like to do. If you would like to train the model on previously collected data, run this command from the root directory. 
+The next steps depend on what you would like to do. If you would like to train the model on previously collected data, run this command from the root directory. Keep in mind, however, that classifytweets.py takes a long time (~7 hours) to run. 
 
 ```
 python classifytweets.py
@@ -78,8 +96,6 @@ jupyter-lab
 ```
 
 The last command should open up a page in your web browser where can you interact with the .ipynb files we used.
-
-I have received a report that some of the CSVs included in this repository did not clone properly. I was not able to recreate this issue myself. It likely has something to do with GitHub's large file storage (lfs). If you run into this problem, please consider emailing me at Djhayes72195@gmail.com.
 
 ## Structure
 
@@ -155,7 +171,7 @@ Drawbacks: This seemed to be the most intuitive solution. We actually tried this
 
 ### Other Reflections, Considerations and Limitations.
 
-A big limiting factor for us was computing time. No one in the group had very much experience with such a computationally expensive problem. Depending on hyperparameter settings and the amount of data we used, training could take 6-10 hours or more. We managed to get around the long runtimes by taking advantage of the BEOCAT supercomputer at KSU. Although we lacked the experience to incorporate threading into the training process at the time, using BEOCAT allowed us to run up to 10 to 15 instances of our code simultaneously to test different hyperparameter settings. Of all the combinations we tried, we eventually found that learning rate = 1e-6, epochs = 5, and batch size = 2 optimized our accuracy when training on around 80,000 tweets.
+A big limiting factor for us was computing time. No one in the group had very much experience with such a computationally expensive problem. Depending on hyperparameter settings and the amount of data we used, training could take 6-10 hours or more. We managed to get around the long runtimes by taking advantage of the BEOCAT supercomputer at KSU. Using BEOCAT allowed us to run up to 10 to 15 instances of our code simultaneously to test different hyperparameter settings. Of all the combinations we tried, we eventually found that learning rate = 1e-6, epochs = 5, and batch size = 2 optimized our accuracy when training on around 80,000 tweets.
 
 Finally, I hope to experiment with using a different classifier. We found the most success with a linear neural network. This seemed natural to us as BERT outputs quite a few (768) features to use as input for classification, and we did not encounter any serious overfitting issues that couldn't be addressed by reducing the number of epochs we trained over. Still, I think that it would be worthwhile to experiment with other classifiers.
 
