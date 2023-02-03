@@ -14,6 +14,7 @@ from collections import Counter
 import random
 import joblib
 from sklearn.model_selection import train_test_split
+from pathlib import Path
 
 
 def split_into_512_approx(users, tweet_chunks_per_user, all_info):
@@ -242,13 +243,13 @@ def evaluate(model, test_data, user_IDs, save_results=False):
     if not save_results:
         return test_data
     else:
-        test_data.to_csv('Data\\Raw_BERT_results\\testresults_1_29_23.csv')
+        test_data.to_csv(Path('Data/Raw_BERT_results/testresults.csv'))
 
 
 def main():
 
     # First we balance the data set.
-    df = pd.read_csv('Data\\text_party_IDs.csv')
+    df = pd.read_csv(Path('Data/text_party_IDs.csv'))
     temp_df_dem = df.loc[df['Party'] == 'Democratic Party']
     temp_df_rep = df.loc[df['Party'] == 'Republican Party']
     dem_list = list(set(temp_df_dem['UserID']))
