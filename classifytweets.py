@@ -17,9 +17,9 @@ from sklearn.model_selection import train_test_split
 from pathlib import Path
 
 
-def split_into_512_approx(users, tweet_chunks_per_user, all_info):
+def split_into_512_approx(users, tweet_chunks_per_user, all_info, by_tweet=False):
     """This function will take in a list of users and construct either test,
-    validation, or training dataframe.  tweet_blocks per user specifies how many chunks of tweets
+    validation, or training dataframe.  tweet_chunks_per_user per user specifies how many chunks of tweets
     we wish to include for each user.  Each tweet chunk is a concatenation of tweets by a particular user.
     This function will ensure that no tweet chunk contains more than 500 words, as BERT can only handle
     512 tokens at a time. The chunks will be constructed with the longest tweets first, on the
@@ -59,7 +59,11 @@ def split_into_512_approx(users, tweet_chunks_per_user, all_info):
             data = temp_df['Text'].iloc[index]
             if counter >= tweet_chunks_per_user:
                 break
-            if len((working_string + ' ' + data).split(' ')) > 500:
+            if by_tweet is True:
+                df_out = df_out.append({'Party': temp_df['Party'].iloc[0], 'Text': data, 'UserID': user}, ignore_index=True)
+                working_string = ''
+                counter += 1
+            if (len((working_string + ' ' + data).split(' ')) > 500):
                 df_out = df_out.append({'Party': temp_df['Party'].iloc[0], 'Text': working_string, 'UserID': user}, ignore_index=True)
                 working_string = ''
                 counter += 1
@@ -77,8 +81,9 @@ class Dataset(torch.utils.data.Dataset):
     def __init__(self, df):
 
         self.labels = [labels[label] for label in df['Party']]
+        # I changed max_length to 70 here. Was 512.
         self.texts = [tokenizer(text, 
-                               padding='max_length', max_length = 512, truncation=True,
+                               padding='max_length', max_length = 70, truncation=True,
                                 return_tensors="pt") for text in df['Text']]
 
     def classes(self):
@@ -243,7 +248,7 @@ def evaluate(model, test_data, user_IDs, save_results=False):
     if not save_results:
         return test_data
     else:
-        test_data.to_csv(Path('Data/Raw_BERT_results/testresults.csv'))
+        test_data.to_csv(Path('Data/Raw_BERT_results/no_chunk_2_13_23.csv'))
 
 
 def main():
@@ -265,12 +270,19 @@ def main():
     train_users = train_dems + train_reps
     validation_users = validation_dems + validation_reps
     test_users = test_dems + test_reps
+    random.shuffle(train_users)
+    random.shuffle(validation_users)
+    random.shuffle(test_users)
 
     # call the function to construct training/val/test sets
     # on our lists of User IDs corresponding to each.
-    df_train = split_into_512_approx(train_users, 7, df)
-    df_val = split_into_512_approx(validation_users, 7, df)
-    df_test = split_into_512_approx(test_users, 7, df)
+    df_train = split_into_512_approx(train_users, 73, df, by_tweet=True)
+    df_val = split_into_512_approx(validation_users, 73, df, by_tweet=True)
+    df_test = split_into_512_approx(test_users, 73, df, by_tweet=True)
+    df_train.to_csv(Path('see_running_data/no_chunk_2_16_train.csv'))
+    df_val.to_csv(Path('see_running_data/no_chunk_2_16_val.csv'))
+    df_test.to_csv(Path('see_running_data/no_chunk_2_16_test.csv'))
+
 
     # Drop User IDs, save the test set IDs for evaluation.
     df_train.drop('UserID', axis=1)
@@ -279,7 +291,7 @@ def main():
     df_test.drop('UserID', axis=1)
 
     train(model, df_train, df_val, LR, EPOCHS)
-    filename = 'test_trained_model.joblib'
+    filename = 'trained_model_no_chunk_2_13_23.joblib'
     # serialize and save model
     joblib.dump(model, filename)
     evaluate(model, df_test, user_ID_add_later, save_results=True)
